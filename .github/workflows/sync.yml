@@ -1,0 +1,38 @@
+name: sync
+# 账号同步：把中转站（ntfy）里的新消息验签后存进 data/sync.json。
+# 中转站只保留 12 小时，所以每 30 分钟运行一次；只在账号数据有变化时才提交。
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['tools/sync.js', 'tools/sync_core.js', '.github/workflows/sync.yml']
+permissions:
+  contents: write
+concurrency:
+  group: sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 同步
+        run: node tools/sync.js
+      - name: 保存
+        run: |
+          git config user.name 'sync'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A data
+          if git diff --cached --quiet; then echo '没有新内容'; exit 0; fi
+          git commit -q -m '账号同步：保存新数据'
+          for i in 1 2 3; do
+            git push origin HEAD:main && exit 0
+            git pull --rebase -q origin main || { git rebase --abort; git reset -q --hard origin/main; node tools/sync.js; git add -A data; git commit -q -m '账号同步：保存新数据' || exit 0; }
+          done
+          exit 1

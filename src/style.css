@@ -408,6 +408,21 @@ mark { background: var(--mark); color: inherit; border-radius: 4px; padding: 0 2
 .share .seqbar { justify-content: center; }
 .pill:disabled { opacity: .7; }
 
+/* ---------- 账号 ---------- */
+.acct .ac-tabs { margin: 6px 0 4px; }
+.ac-f { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+.ac-f label:not(.ac-show) { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); }
+.ac-f input:not([type="checkbox"]) { font: 16px var(--f-zh); color: var(--ink); background: var(--surface2); border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; min-width: 0; }
+.ac-f input:focus { border-color: var(--acc); outline: none; }
+.ac-show { display: flex; align-items: center; gap: 6px; font-size: 13.5px; color: var(--muted); }
+.ac-msg { min-height: 1.4em; margin: 0; font-size: 13.5px; color: var(--muted); }
+.bad { color: #C2410C; }
+.ac-me { display: flex; align-items: center; gap: 12px; padding: 6px 0 2px; }
+.ac-me b { display: block; font-size: 17px; }
+.ac-me small { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--muted); }
+.ac-av { width: 44px; height: 44px; flex: none; display: grid; place-items: center; border-radius: 50%; background: var(--tint); color: var(--acc); }
+.pill.confirm { border-color: #C2410C; color: #C2410C; }
+
 /* ---------- 底部标签栏 ---------- */
 #tabs {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; max-width: 560px; margin: 0 auto;

@@ -153,6 +153,7 @@ def main():
             ui[s] = t
     css = open(os.path.join(ROOT, 'src', 'style.css'), encoding='utf-8').read()
     qr = qr_svg(SITE_URL)
+    core = open(os.path.join(ROOT, 'tools', 'sync_core.js'), encoding='utf-8').read()
     shell = open(os.path.join(ROOT, 'src', 'shell.html'), encoding='utf-8').read()
 
     body = (shell.replace('/*STYLE*/', css)
@@ -160,6 +161,7 @@ def main():
             .replace('/*DATA_T*/', data_t)
             .replace('/*UI_T*/', js_json(ui))
             .replace('/*QR*/', qr)
+            .replace('/*CORE*/', core)
             .replace('/*APP*/', app))
     head = ('<!doctype html>\n<html lang="zh-Hans">\n<head>\n<meta charset="utf-8">\n'
             '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
@@ -193,7 +195,7 @@ def main():
     if args.fragment:  # 预览版不带录音文件，全部用手机自带的朗读
         data['audio'] = []
         frag = (shell.replace('/*STYLE*/', css).replace('/*DATA_S*/', js_json(data))
-                .replace('/*DATA_T*/', tw(js_json(data))).replace('/*UI_T*/', js_json(ui)).replace('/*QR*/', qr).replace('/*APP*/', app))
+                .replace('/*DATA_T*/', tw(js_json(data))).replace('/*UI_T*/', js_json(ui)).replace('/*QR*/', qr).replace('/*CORE*/', core).replace('/*APP*/', app))
         open(args.fragment, 'w', encoding='utf-8').write(frag.replace('<!--HEAD_END-->', ''))
 
     n = len(data['ps'])

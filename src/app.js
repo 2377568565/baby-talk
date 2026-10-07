@@ -4,7 +4,9 @@
 // ---------- 存储（读不到也能用） ----------
 const LS = {
   get(k, d) { try { const v = localStorage.getItem('bt.' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
-  set(k, v) { try { localStorage.setItem('bt.' + k, JSON.stringify(v)); } catch (e) { /* 隐私模式 */ } }
+  set(k, v) { try { localStorage.setItem('bt.' + k, JSON.stringify(v)); } catch (e) { /* 隐私模式 */ } if (LS.onSet) LS.onSet(k); },
+  del(k) { try { localStorage.removeItem('bt.' + k); } catch (e) { /* 隐私模式 */ } },
+  onSet: null
 };
 
 const S = {
@@ -731,6 +733,7 @@ function viewMe() {
   const today = new Date();
   const max = today.getFullYear() + '-' + String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
   let h = '<header class="ptitle"><h1>' + T('我的') + '</h1></header>';
+  h += acctPanel();
   h += '<section class="panel"><h2>' + T('宝宝') + '</h2>' +
     '<label class="row" for="birth"><span>' + T('生日') + '</span><input id="birth" type="date" max="' + max + '" value="' + esc(S.birth) + '"></label>' +
     '<p class="hint">' + (age ? esc(age.text) + ' · ' + T('首页会自动打开') + ' ' + esc(stageById(age.stage).age) + ' ' + T('的内容') : T('填了生日，首页会自动打开适合宝宝年龄的阶段。')) + '</p>' +
@@ -801,6 +804,266 @@ function afterMe() {
   const v = $('#voice');
   if (v) v.addEventListener('change', () => { S.voice = v.value; LS.set('voice', S.voice); });
 }
+
+// ---------- 账号（可选）：宝宝生日、收藏、设置在不同手机之间同步 ----------
+// 做法和学课网站一样：账号名的哈希 = 账号编号；密码在本机算出两把钥匙（PBKDF2）：一把加密数据（AES-GCM），
+// 一把给每项数据编格子号（HMAC）。网上（GitHub 公开仓库）只有密文；忘记密码无法找回。
+// 新消息先投到中转站 ntfy，GitHub 上的同步任务每 30 分钟把它们存进 data/sync.json。
+const SY = {
+  relay: 'https://ntfy.sh', topic: 'bbtalk-42eaff1a6300df13', data: 'data/sync.json',
+  B: window.BTSync, SUB: window.crypto && window.crypto.subtle
+};
+if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) SY.relay = LS.get('devRelay', SY.relay);   // 本机测试用模拟中转站
+SY.ok = !!(SY.B && SY.SUB && window.fetch && window.TextEncoder && /^https?:$/.test(location.protocol) &&
+  /github\.io$|^localhost$|^127\.0\.0\.1$/.test(location.hostname));
+const RAW = {   // 身份钥匙按原样存（不经 JSON）
+  get(k) { try { return localStorage.getItem('bt.' + k); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem('bt.' + k, v); } catch (e) { /* 隐私模式 */ } }
+};
+const ITEMS = { b: ['birth'], f: ['favs'], s: ['theme', 'script', 'showZh', 'follow', 'slowDefault', 'welcomed'] };
+const ITEM_OF = {};
+Object.keys(ITEMS).forEach(id => ITEMS[id].forEach(k => { ITEM_OF[k] = id; }));
+let ACC = LS.get('acct', null), KE = null, KM = null, applying = false, syncTimer = null, syncing = null;
+const SYS = { t: 0, msg: '', err: '' };
+LS.onSet = k => {
+  const id = ITEM_OF[k];
+  if (!id || applying) return;
+  const mt = LS.get('mt', {}); mt[id] = Date.now();
+  try { localStorage.setItem('bt.mt', JSON.stringify(mt)); } catch (e) { /* 隐私模式 */ }
+  if (ACC) { clearTimeout(syncTimer); syncTimer = setTimeout(() => syncNow(), 2500); }
+};
+function itemVal(id) {
+  const o = {};
+  ITEMS[id].forEach(k => { const v = LS.get(k, null); if (v !== null && v !== '') o[k] = v; });
+  return Object.keys(o).length ? JSON.stringify(o) : '';
+}
+function applyItem(id, str) {
+  let o = {}; try { o = JSON.parse(str || '{}') || {}; } catch (e) { /* 坏数据不用 */ }
+  applying = true;
+  ITEMS[id].forEach(k => { if (k in o) { LS.set(k, o[k]); if (k in S) S[k] = o[k]; } else if (id !== 's') { LS.del(k); if (k === 'favs') S.favs = []; if (k === 'birth') S.birth = ''; } });
+  applying = false;
+}
+const uname = s => String(s || '').normalize('NFKC').trim().toLowerCase();
+const okName = u => /^[一-鿿A-Za-z0-9_.-]{2,20}$/.test(u);
+const WEAK = /^(123456|1234567|12345678|123456789|111111|000000|666666|888888|abc123|password|qwerty|654321|123123)$/i;
+function aidOf(u) { return SY.SUB.digest('SHA-256', SY.B.enc('btacct|' + u)).then(h => SY.B.hex(h).slice(0, 32)); }
+function derive(u, pw) {
+  return SY.SUB.importKey('raw', SY.B.enc(pw), 'PBKDF2', false, ['deriveBits'])
+    .then(k => SY.SUB.deriveBits({ name: 'PBKDF2', salt: SY.B.enc('btacct|' + u), iterations: 120000, hash: 'SHA-256' }, k, 512));
+}
+function useRaw(raw) {
+  const a = new Uint8Array(raw);
+  return Promise.all([SY.SUB.importKey('raw', a.slice(0, 32), { name: 'AES-GCM' }, false, ['encrypt', 'decrypt']),
+    SY.SUB.importKey('raw', a.slice(32, 64), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign'])]).then(ks => { KE = ks[0]; KM = ks[1]; });
+}
+function seal(obj) {
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  return SY.SUB.encrypt({ name: 'AES-GCM', iv }, KE, SY.B.enc(JSON.stringify(obj))).then(ct => {
+    const o = new Uint8Array(12 + ct.byteLength); o.set(iv); o.set(new Uint8Array(ct), 12); return SY.B.b64u(o);
+  });
+}
+function unseal(str) {
+  let a; try { a = SY.B.unb64u(str); } catch (e) { return Promise.resolve(null); }
+  return SY.SUB.decrypt({ name: 'AES-GCM', iv: a.slice(0, 12) }, KE, a.slice(12)).then(pt => JSON.parse(new TextDecoder().decode(pt)), () => null);
+}
+function slotOf(k, i) { return SY.SUB.sign('HMAC', KM, SY.B.enc(k + '#' + i)).then(h => SY.B.hex(h).slice(0, 16)); }
+function net(p, ms) {
+  return new Promise((ok, no) => {
+    const t = setTimeout(() => no({ code: 'TIMEOUT' }), ms || 20000);
+    p.then(r => { clearTimeout(t); ok(r); }, e => { clearTimeout(t); no(e && e.code ? e : { code: 'NETWORK' }); });
+  });
+}
+// 最新数据 = GitHub 上的存档 + 中转站里还没存档的新消息
+function loadShared() {
+  return net(fetch(SY.data + '?t=' + Date.now(), { cache: 'no-store' }).then(r => r.status === 404 ? {} : r.ok ? r.json() : Promise.reject({ code: 'HTTP_' + r.status })))
+    .then(d => {
+      const X = SY.B.norm(d || {});
+      const since = X.last ? Math.max(0, X.last - 120) : '12h';
+      return net(fetch(SY.relay + '/' + SY.topic + '/json?poll=1&since=' + since, { cache: 'no-store' }).then(r => r.ok ? r.text() : Promise.reject({ code: 'HTTP_' + r.status })))
+        .then(t => SY.B.merge(X, t.split('\n').map(l => { try { return JSON.parse(l); } catch (e) { return null; } }).filter(Boolean)))
+        .then(() => X);
+    });
+}
+function deviceKey() { return SY.B.keys({ get: RAW.get, set: RAW.set }); }
+function post(P, n) {
+  return deviceKey().then(K => SY.B.sign(K, P)).then(body =>
+    net(fetch(SY.relay + '/' + SY.topic, { method: 'POST', body }).then(r => {
+      if (r.status === 429 && (n || 0) < 3) return new Promise(ok => setTimeout(ok, 8000 * ((n || 0) + 1))).then(() => post(P, (n || 0) + 1));
+      if (!r.ok) throw { code: 'HTTP_' + r.status };
+      return r.json();
+    })));
+}
+const pause = ms => new Promise(ok => setTimeout(ok, ms));
+function remoteItems(X) {
+  const V = (X.vault || {})[ACC.aid] || {};
+  return Promise.all(Object.keys(V).map(k => unseal(V[k].d))).then(list => {
+    const g = {};
+    list.forEach(p => {
+      if (!p || typeof p.k !== 'string') return;
+      let it = g[p.k];
+      if (!it || p.t > it.t) g[p.k] = it = { t: p.t, n: p.n, parts: {} };
+      if (p.t === it.t) it.parts[p.i] = p.v;
+    });
+    const out = {};
+    Object.keys(g).forEach(k => {
+      const it = g[k]; let v = '';
+      for (let i = 0; i < it.n; i++) { if (typeof it.parts[i] !== 'string') return; v += it.parts[i]; }
+      out[k] = { v, t: it.t, n: it.n };
+    });
+    return out;
+  });
+}
+async function pushItem(id, v, t, oldN) {
+  const n = Math.max(1, Math.ceil(v.length / 600));
+  for (let i = 0; i < n; i++) {
+    const slot = await slotOf(id, i), d = await seal({ k: id, v: v.slice(i * 600, (i + 1) * 600), i, n, t });
+    await pause(700);
+    await post({ op: 'w', id: SY.B.rid('w'), aid: ACC.aid, slot, d });
+  }
+  for (let i = n; i < (oldN || 0); i++) { await pause(700); await post({ op: 'w', id: SY.B.rid('w'), aid: ACC.aid, slot: await slotOf(id, i), d: '' }); }
+}
+function syncNow(opts) {
+  opts = opts || {};
+  if (!ACC || !SY.ok) return Promise.resolve();
+  if (syncing) return syncing;
+  SYS.msg = T('正在同步……'); paintAcct();
+  syncing = (async () => {
+    if (!KE) await useRaw(SY.B.unb64u(ACC.r));
+    const X = await loadShared();
+    const R = await remoteItems(X);
+    const mt = LS.get('mt', {});
+    let changed = false;
+    for (const id of Object.keys(ITEMS)) {
+      const r = R[id], lt = mt[id] || 0;
+      if (opts.first && id === 'f' && r) {   // 第一次在这台手机登录：收藏两边合起来
+        let rf = []; try { rf = JSON.parse(r.v).favs || []; } catch (e) { /* 忽略 */ }
+        const all = [...new Set(S.favs.concat(rf))];
+        if (all.length !== rf.length) { applying = true; S.favs = all; LS.set('favs', all); applying = false; mt.f = Date.now(); }
+        else { applyItem('f', r.v); mt.f = r.t; }
+        changed = true;
+      } else if (r && r.t > lt) { applyItem(id, r.v); mt[id] = r.t; changed = true; }
+      if (mt[id] && (!r || mt[id] > r.t)) await pushItem(id, itemVal(id), mt[id], r && r.n);
+    }
+    try { localStorage.setItem('bt.mt', JSON.stringify(mt)); } catch (e) { /* 隐私模式 */ }
+    return changed;
+  })().then(changed => {
+    syncing = null; SYS.msg = ''; SYS.err = ''; SYS.t = Date.now();
+    if (changed) refreshAfterSync(); else paintAcct();
+  }, e => { syncing = null; SYS.msg = ''; SYS.err = whyAcct(e); paintAcct(); });
+  return syncing;
+}
+function refreshAfterSync() {
+  applyTheme();
+  loadData(); IDX = null;
+  document.documentElement.lang = S.script === 't' ? 'zh-Hant' : 'zh-Hans';
+  if (S.birth) S.stage = currentStageId();
+  setAccent(S.stage);
+  const y = window.scrollY; route(); window.scrollTo(0, y);
+}
+function whyAcct(e) {
+  if (e && e.msg) return e.msg;
+  const c = String((e && e.code) || '');
+  if (c === 'HTTP_429') return T('这会儿用的人有点多，请过一分钟再试。');
+  if (c === 'TIMEOUT' || c === 'NETWORK') return T('连不上网络，请检查网络后再试。');
+  return T('没有成功，请稍后再试。') + (c ? '（' + c + '）' : '');
+}
+async function register(u, pw) {
+  const aid = await aidOf(u);
+  const X = await loadShared();
+  if (X.accounts[aid]) throw { msg: T('这个账号已经有人用了，换一个吧。如果是你自己的账号，请点“登录”。') };
+  const K = await deviceKey();
+  const raw = await derive(u, pw);
+  await useRaw(raw);
+  const ek = await seal({ sk: JSON.parse(RAW.get('sk')), u });
+  await post({ op: 'u', id: SY.B.rid('u'), aid, ek });
+  if (!K) throw { msg: T('没能准备好这台手机的钥匙，请刷新后再试。') };
+  ACC = { u, aid, r: SY.B.b64u(raw) }; LS.set('acct', ACC);
+  const mt = LS.get('mt', {}), now = Date.now();
+  Object.keys(ITEMS).forEach(id => { if (itemVal(id) && !mt[id]) mt[id] = now; });
+  try { localStorage.setItem('bt.mt', JSON.stringify(mt)); } catch (e) { /* 隐私模式 */ }
+  await pause(800);
+  return syncNow();
+}
+async function login(u, pw) {
+  const aid = await aidOf(u);
+  const [X, raw] = await Promise.all([loadShared(), derive(u, pw)]);
+  const ac = X.accounts[aid];
+  if (!ac) throw { msg: T('没有这个账号。新用户请点“注册”。') };
+  await useRaw(raw);
+  const box = await unseal(ac.ek);
+  if (!box || !box.sk || !box.sk.d) { KE = KM = null; throw { msg: T('密码不对，请再试一次。') }; }
+  const cur = RAW.get('sk');
+  if (cur && cur !== JSON.stringify(box.sk) && !RAW.get('sk_prev')) RAW.set('sk_prev', cur);
+  RAW.set('sk', JSON.stringify(box.sk));
+  ACC = { u, aid, r: SY.B.b64u(raw) }; LS.set('acct', ACC);
+  return syncNow({ first: true });
+}
+function logout() {
+  ACC = null; KE = KM = null; LS.del('acct'); LS.del('mt');
+  const prev = RAW.get('sk_prev');
+  if (prev) { RAW.set('sk', prev); LS.del('sk_prev'); }
+  SYS.t = 0; SYS.err = '';
+}
+let acctTab = 'in';
+function when(t) {
+  const s = Math.round((Date.now() - t) / 1000);
+  return s < 60 ? T('刚刚') : s < 3600 ? Math.floor(s / 60) + ' ' + T('分钟前') : new Date(t).toLocaleString(S.script === 't' ? 'zh-TW' : 'zh-CN', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+}
+function acctPanel() {
+  let h = '<section class="panel acct" id="acct"><h2>' + T('账号') + '</h2>';
+  if (!SY.ok) return h + '<p class="hint">' + T('账号同步要用正式网址打开：') + ' <span lang="en">' + SITE_URL + '</span></p></section>';
+  if (ACC) {
+    const st = SYS.err ? '<span class="bad">' + T('同步没有成功：') + esc(SYS.err) + '</span>' : SYS.msg ? esc(SYS.msg) : SYS.t ? ico('check', 'sm') + T('已同步') + ' · ' + when(SYS.t) : '';
+    return h + '<div class="ac-me"><span class="ac-av">' + ico('user') + '</span><div><b>' + esc(ACC.u) + '</b><small id="acst" role="status">' + st + '</small></div></div>' +
+      '<p class="hint">' + T('在另一台手机登录同一个账号，宝宝生日、收藏和设置（外观、简繁体、显示中文、播放方式）都会同步过去。爸爸妈妈可以共用一个账号。') + '</p>' +
+      '<div class="seqbar"><button class="pill" data-act="acsync">' + ico('refresh') + '<span>' + T('立即同步') + '</span></button>' +
+      '<button class="pill" data-act="acout">' + T('退出登录') + '</button></div></section>';
+  }
+  const up = acctTab === 'up';
+  return h + '<p class="hint">' + T('不登录也能正常使用。登录后，换手机或和家人共用一个账号，宝宝生日、收藏和设置都会同步。') + '</p>' +
+    '<div class="seg ac-tabs" role="tablist"><button role="tab" data-act="actab" data-v="in" class="' + (up ? '' : 'on') + '" aria-selected="' + !up + '">' + T('登录') + '</button>' +
+    '<button role="tab" data-act="actab" data-v="up" class="' + (up ? 'on' : '') + '" aria-selected="' + up + '">' + T('注册新账号') + '</button></div>' +
+    '<form class="ac-f" id="acform" autocomplete="on">' +
+    '<label for="acu"><span>' + T('账号') + '</span><input id="acu" name="username" autocomplete="username" maxlength="20" placeholder="' + T('例如：小宝家') + '" autocapitalize="off" spellcheck="false"></label>' +
+    '<label for="acp"><span>' + T('密码') + '</span><input id="acp" name="password" type="password" autocomplete="' + (up ? 'new' : 'current') + '-password" maxlength="64" placeholder="' + (up ? T('至少 6 位') : T('输入密码')) + '"></label>' +
+    (up ? '<label for="acp2"><span>' + T('确认密码') + '</span><input id="acp2" type="password" autocomplete="new-password" maxlength="64" placeholder="' + T('再输入一次') + '"></label>' : '') +
+    '<label class="ac-show" for="acsh"><input type="checkbox" id="acsh"> ' + T('显示密码') + '</label>' +
+    '<p class="ac-msg" id="acmsg" role="status"></p>' +
+    '<button type="submit" class="pill solid wide" id="acgo">' + (up ? T('注册并登录') : T('登录')) + '</button>' +
+    '<p class="hint">' + (up ? T('请记住密码。资料先用密码加密再存到网上，谁也看不到；也因此忘记密码就无法找回。') : T('还没有账号？点上面的“注册新账号”。')) + '</p>' +
+    '</form></section>';
+}
+function paintAcct() {
+  const box = $('#acct');
+  if (!box) return;
+  if (ACC) { box.outerHTML = acctPanel(); return; }
+  const st = $('#acst'); if (st) st.textContent = SYS.msg;
+}
+document.addEventListener('submit', e => {
+  if (e.target.id !== 'acform') return;
+  e.preventDefault();
+  const msg = $('#acmsg'), go = $('#acgo');
+  const say = (t, bad) => { msg.textContent = t; msg.classList.toggle('bad', !!bad); };
+  const u = uname($('#acu').value), pw = $('#acp').value, p2 = $('#acp2');
+  if (!okName(u)) return say(T('账号要 2–20 个字，可以用中文、英文字母、数字和 _ . -'), true);
+  if (acctTab === 'up') {
+    if (pw.length < 6) return say(T('密码至少 6 位。'), true);
+    if (WEAK.test(pw)) return say(T('这个密码太常见了，容易被猜到，换一个吧。'), true);
+    if (p2 && p2.value !== pw) return say(T('两次输入的密码不一样。'), true);
+  } else if (!pw) return say(T('请输入密码。'), true);
+  go.disabled = true;
+  say(acctTab === 'up' ? T('正在注册……') : T('正在登录……'));
+  (acctTab === 'up' ? register(u, pw) : login(u, pw)).then(() => {
+    toast(acctTab === 'up' ? T('注册成功，已登录') : T('登录成功，已同步'));
+    route();
+  }, err => { go.disabled = false; say(whyAcct(err), true); });
+});
+document.addEventListener('change', e => {
+  if (e.target.id === 'acsh') document.querySelectorAll('#acp,#acp2').forEach(i => { i.type = e.target.checked ? 'text' : 'password'; });
+});
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && ACC && Date.now() - SYS.t > 60000) syncNow();
+});
 
 // ---------- 事件 ----------
 document.addEventListener('click', e => {
@@ -944,6 +1207,22 @@ document.addEventListener('click', e => {
     case 'share':
       navigator.share({ title: T('宝宝美语 Baby Talk'), text: T('给爸妈用的宝宝美语：0–6 岁地道美国口语，能搜索、能听发音。'), url: SITE_URL }).catch(() => {});
       break;
+    case 'actab': {
+      const keep = $('#acu') && $('#acu').value;
+      acctTab = el.dataset.v;
+      $('#acct').outerHTML = acctPanel();
+      if (keep) $('#acu').value = keep;
+      break;
+    }
+    case 'acsync': syncNow(); break;
+    case 'acout':
+      if (!el.classList.contains('confirm')) {
+        el.classList.add('confirm'); el.innerHTML = T('确定退出？再点一次');
+        setTimeout(() => { if (el.isConnected) { el.classList.remove('confirm'); el.textContent = T('退出登录'); } }, 4000);
+        break;
+      }
+      logout(); toast(T('已退出登录，这台手机上的资料都还在')); route();
+      break;
     case 'testvoice':
       stopAll();
       say('', "Hi sweetie! Mommy loves you so much.", false);
@@ -975,6 +1254,7 @@ S.stage = S.birth ? currentStageId() : LS.get('stage', 's0');
 if (!stageById(S.stage) || S.stage === 'songs') S.stage = 's0';
 setAccent(S.stage);
 route();
+if (ACC && SY.ok) setTimeout(() => syncNow(), 1500);
 if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol) && /github\.io$|^localhost$/.test(location.hostname)) {
   window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); });
 }
