@@ -1,0 +1,44 @@
+name: tts
+# 句子改了（tts/script.json 变了）就用开源语音模型 Kokoro 合成美式发音 MP3，
+# 存进 audio/，再重新生成 index.html。也可以在 Actions 页面手动运行。
+on:
+  push:
+    branches: [main]
+    paths: ['tts/script.json', 'tools/tts.py', '.github/workflows/tts.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tts
+  cancel-in-progress: false
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: 安装
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng > /dev/null
+          pip install -q --upgrade pip
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "kokoro==0.9.4" "misaki[en]==0.9.4" soundfile opencc-python-reimplemented qrcode
+      - name: 录音
+        run: python tools/tts.py
+      - name: 重新生成网页
+        run: python tools/build.py
+      - name: 提交
+        run: |
+          git config user.name 'baby-tts'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A audio index.html
+          if git diff --cached --quiet; then echo '没有新录音'; exit 0; fi
+          git commit -q -m '补录美式发音'
+          for i in 1 2 3 4; do
+            git push origin HEAD:main && exit 0
+            sleep $((i * 5)); git pull -q --rebase origin main
+          done
+          exit 1

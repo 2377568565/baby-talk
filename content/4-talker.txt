@@ -1,0 +1,174 @@
+# s3 | 2–3 岁 | 小小沟通者 | Little Talker | 24 | 36
+intro: 词汇爆炸期！孩子开始说短句、问问题、有很多情绪。多用完整句子，多聊感受。
+how: 用完整的句子跟孩子说话，自然地示范语法，不必刻意教。
+how: 帮孩子说出情绪：mad、sad、scared、frustrated、excited。
+how: 多问开放式问题：What happened? What do you think? 少问只能回答 yes 或 no 的问题。
+how: 一起玩扮演游戏：扮家家酒、开商店、当医生，都是最好的语言练习。
+ms: 2 岁半 | 会说大约 50 个词；会把两个以上的词连起来说，其中一个是动作词，比如 “Doggie run”；会说 “I”“me”“we”。
+ms: 3 岁 | 能跟你来回对话至少两轮；会问 who、what、where、why；说话大部分时候别人听得懂；问他名字会说出自己的名字。
+
+## potty | drop | 如厕训练 | Potty Training | 如厕训练 上厕所 尿尿 便便 马桶 便盆 尿裤子 内裤 学习裤 洗手间 冲水
+note: potty 是小孩说的“厕所、便盆”，go potty 就是去上厕所。美国公共厕所叫 restroom 或 bathroom，不说 toilet。
+Do you need to go potty? | 你要上厕所吗？
+Let's try to go potty. | 我们去试试上厕所。
+Tell me when you need to go. | 想上厕所要告诉我。
+Do you need to pee or poop? | 你要尿尿还是便便？
+Pants down. | 裤子脱下来。
+Sit on the potty. | 坐在便盆上。
+Take your time. | 慢慢来。
+You went pee in the potty! | 你在马桶里尿尿了！
+Wipe front to back. | 从前往后擦。 | 女孩尤其要这样教。
+Flush! Bye-bye, poop! | 冲水！便便拜拜！
+Now wash your hands. | 现在去洗手。
+Big kid underwear! | 大孩子的内裤！ | 学习裤叫 training pants，很多人直接用品牌名 Pull-Ups。
+Uh-oh, you had an accident. That's okay. | 哎呀，你尿裤子了，没关系。 | accident 是“尿裤子”的委婉说法，美国家长都这样说。
+Are you dry? | 裤子是干的吗？
+Let's try before we leave. | 出门前先试一下。
+Let's find a bathroom. | 我们找洗手间。
+
+## choice | split | 选择与指令 | Choices & Directions | 选择 二选一 先后 指令 过来 拿 等一下 小声 听话 准备
+note: 给二选一是美国育儿最常用的技巧：孩子有掌控感，你也达到目的。
+Do you want the red cup or the blue cup? | 你要红杯子还是蓝杯子？
+You can choose. | 你可以自己选。
+First shoes, then outside. | 先穿鞋，再出去。 | First…, then… 的句型非常好用。
+Put your cup on the table, please. | 请把杯子放在桌上。
+Can you bring me your shoes? | 你能把鞋子拿给我吗？
+Go get your jacket. | 去拿你的外套。
+Can you throw this away for me? | 帮我丢掉好吗？
+Come here, please. | 请过来。
+Walk, please. No running inside. | 请用走的，室内不跑。
+Inside voice, please. | 请小声说话。 | inside voice 是室内的音量，outside voice 是户外的大声。
+Put on your listening ears. | 打开你的小耳朵听。 | 美国幼儿园老师的常用语。
+Let's count to three. | 我们数到三。
+Are you ready? Let's go! | 准备好了吗？我们走！
+Hold on a sec. | 等一下下。 | sec = second。
+Be right there! | 马上来！
+
+## feelings | smile | 大情绪 | Big Feelings | 情绪 心情 生气 难过 害怕 害羞 兴奋 冷静 发脾气 道歉 打人 丢东西
+How are you feeling? | 你感觉怎么样？
+You look upset. What happened? | 你看起来不开心，发生什么事了？ | upset 是不开心、难过、心烦，非常常用。
+It's okay to be sad. | 难过是可以的。
+You're mad because it's time to go. | 你生气是因为该走了。
+I hear you. | 我听到了，我懂。
+You can be mad, but you can't throw toys. | 你可以生气，但不能丢玩具。
+I won't let you hit. | 我不会让你打人。 | 美国正向教养常用的说法：冷静地设立界限。
+Let's calm down together. | 我们一起冷静下来。
+Do you want a hug or some space? | 你要抱抱，还是自己静一静？
+Tell me what you need. | 告诉我你需要什么。
+You were scared. That's okay. | 你刚才很害怕，没关系。
+Are you feeling shy? | 你害羞吗？
+Are you excited? | 你很兴奋吗？
+That made you so happy! | 那让你好开心！
+We all feel mad sometimes. | 我们每个人有时都会生气。
+I'm sorry. I made a mistake. | 对不起，我做错了。 | 大人向孩子道歉，是最好的示范。
+
+## share | swap | 分享与轮流 | Sharing & Taking Turns | 分享 轮流 等 一起玩 抢 计时器 借 朋友 友善
+It's your turn. | 轮到你了。
+My turn, your turn. | 我一次，你一次。
+Can you wait for your turn? | 你可以等到轮到你吗？
+When she's done, it's your turn. | 等她玩好了，就轮到你。
+Let's set a timer. | 我们定个计时器。 | 美国家长解决争抢的常用办法。
+Can I have a turn when you're done? | 你玩好了可以换我吗？ | 美国幼儿园教孩子这样问，而不是直接抢。
+He's still using it. | 他还在用。
+Let's find another one. | 我们找另一个。
+Can I play too? | 我也可以玩吗？
+Let's play together. | 我们一起玩。
+Thank you for sharing! | 谢谢你分享！
+That was so kind. | 你真贴心。
+Say "Stop! I don't like that." | 说：“停！我不喜欢这样。” | 教孩子保护自己的界限。
+Are you okay? Let's say sorry. | 你还好吗？我们说对不起。
+
+## pretend | crown | 扮演游戏 | Pretend Play | 扮演 假装 扮家家酒 茶会 医生 积木 盖塔 躲猫猫 捉迷藏 画画 涂色
+Let's play pretend! | 我们来玩假装游戏！
+Is it a tea party? Can I have some tea? | 是茶会吗？我可以喝点茶吗？
+Mmm, delicious! | 嗯，好美味！
+Are you the doctor? | 你是医生吗？
+Is the baby hungry? Let's feed the baby. | 娃娃饿了吗？我们喂娃娃。
+Vroom! Where's the car going? | 呜呜！车子要去哪里？
+Let's build a tower. | 我们来盖塔。
+How tall can we make it? | 我们能盖多高？
+Uh-oh, it fell down! Let's build it again. | 哎呀，倒了！我们再盖一次。
+Can you be a lion? Roar! | 你能当狮子吗？吼！
+Let's play hide-and-seek! | 我们玩捉迷藏！
+Ready or not, here I come! | 不管你准备好没有，我来咯！ | 捉迷藏数完数之后的经典台词。
+Found you! | 找到你了！
+Let's color. | 我们来涂色。 | 蜡笔叫 crayons，涂色本叫 coloring book。
+Tell me about your picture. | 跟我说说你的画。 | 比问 What is it? 更鼓励孩子表达。
+
+## errands | cart | 出门办事 | Errands & Outings | 超市 买东西 购物车 不买 排队 停车场 图书馆 动物园 游乐场 生日清单
+We're going to the grocery store. | 我们要去超市。 | 买菜的超市美国叫 grocery store。
+Can you help me find the bananas? | 你能帮我找香蕉吗？
+Let's put it in the cart. | 我们放进购物车。
+We're not buying toys today. | 我们今天不买玩具。
+You can look, but we're not buying it. | 你可以看，但我们不买。
+Let's add it to your birthday list. | 我们把它加进你的生日愿望清单。 | 美国爸妈温和拒绝买玩具的说法。
+Hold my hand in the parking lot. | 在停车场要牵我的手。
+Stay with me. | 跟着我。
+We have to wait in line. | 我们要排队。 | 美国说 wait in line，英国说 queue。
+Can you say hi to the cashier? | 你能跟收银员说嗨吗？
+We're going to the library. | 我们要去图书馆。 | 美国图书馆常有给小孩的 story time（故事时间）。
+Do you want to go to the playground? | 你想去游乐场吗？ | playground 是户外的游乐设施。
+Let's go to the zoo! | 我们去动物园！
+
+## safety3 | shield | 安全规则 | Safety Rules | 安全 过马路 停 等我 烫 炉子 摔 剪刀 狗 药 楼梯 扶手
+Stop! Wait for me. | 停！等我。
+Hold my hand when we cross the street. | 过马路要牵我的手。
+Look both ways. | 左右两边都要看。 | 过马路前的标准口令。
+That's hot. Don't touch the stove. | 那很烫，不要碰炉子。
+Sit down in your chair, please. | 请坐在椅子上。
+Feet on the floor. | 脚放在地上。 | 孩子爬上桌子时说。
+Don't stand on that. You might fall. | 不要站在上面，你会摔下来。
+Scissors are for paper only. | 剪刀只能剪纸。
+Stay where I can see you. | 待在我看得到的地方。
+Ask before you pet the dog. | 摸狗之前要先问。 | 美国常教孩子问主人：Can I pet your dog?
+Be gentle with the baby. | 对小宝宝要轻一点。
+Medicine is not candy. | 药不是糖果。
+Hold the railing on the stairs. | 走楼梯要扶着扶手。
+
+## routine | clock | 一天的作息 | Daily Routines | 作息 起床 早餐 刷牙 梳头 迟到 背包 洗澡 洗头 睡前 关灯
+Rise and shine! | 起床咯！ | 叫人起床的经典说法，语气轻快。
+Time to get up. | 该起床了。
+Go potty, then we'll get dressed. | 先上厕所，然后穿衣服。
+What do you want for breakfast? | 早餐想吃什么？
+Pancakes or cereal? | 松饼还是麦片？ | cereal 是美国早餐的冷麦片加牛奶。
+Brush your teeth. Two minutes! | 刷牙，两分钟！
+Let's brush your hair. | 我们梳头发。
+Hurry up, please. We're running late. | 请快一点，我们要迟到了。 | running late 是“要迟到了”，比说 late 更自然。
+Grab your backpack. | 拿你的背包。
+Bath time! Do you want bubbles? | 洗澡咯！要泡泡吗？
+Tilt your head back. | 头往后仰。 | 冲头发时说，水才不会流进眼睛。
+Jammies, teeth, books, bed. | 睡衣、刷牙、看书、睡觉。
+Lights out! | 关灯咯！
+Stay in your bed, please. | 请待在你的床上。
+
+## questions | question | 回答为什么 | Questions & Answers | 为什么 问题 回答 你觉得呢 一起查 数数 颜色 哪个 看图说话
+note: 两三岁会一直问 Why?。多反问 What do you think?，让孩子自己想。
+That's a great question! | 好问题！
+What do you think? | 你觉得呢？
+Why do you think so? | 你为什么这样想？
+Let's find out together. | 我们一起找答案。
+I don't know. Let's look it up. | 我不知道，我们查查看。 | look it up 是查资料。
+Where did the ball go? | 球跑哪去了？
+What color is it? | 它是什么颜色？
+How many are there? Let's count. | 有几个？我们来数数。
+Which one is bigger? | 哪个比较大？
+What's he doing? | 他在做什么？ | 看图说话时问。
+What happened next? | 接下来发生什么事？
+Is it day or night? | 现在是白天还是晚上？
+How does it feel? | 摸起来感觉怎么样？
+Who's coming over today? | 今天谁要来家里？
+
+## praise3 | medal | 鼓励 | Encouragement | 鼓励 称赞 夸奖 努力 再试一次 击掌 做到了 犯错
+note: 夸具体的努力和行为，比只说 Good job 更有用。
+You worked so hard on that! | 你做这个好努力！
+You kept trying! | 你一直没有放弃！
+Look what you did! | 看看你做到了什么！
+You figured it out! | 你想出办法了！ | figure out 是想出来、弄明白。
+You put on your shoes all by yourself! | 你自己穿好鞋子了！
+You were so gentle with the baby. | 你对小宝宝好温柔。
+Thank you for listening. | 谢谢你认真听。
+Way to go! | 干得好！
+High five! | 击个掌！
+I knew you could do it. | 我就知道你做得到。
+Almost! Try again. | 差一点！再试一次。
+It's okay to make mistakes. | 犯错没关系。

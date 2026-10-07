@@ -1,0 +1,283 @@
+// 内容格式说明见 baby/README.md
+// 每一句：英文 | 中文 | 地道说明（可空） | 其他说法（可空，多个用 / 隔开）
+
+# s0 | 0–6 个月 | 新生宝宝 | Newborn | 0 | 6
+intro: 宝宝还不会说话，但每天都在“录音”。把你正在做的事情说出来，就是最好的语言输入。
+how: 用“妈妈语”（parentese）：音调高一点、速度慢一点、元音拉长、表情夸张。华盛顿大学 Patricia Kuhl 团队的研究发现，常听 parentese 的宝宝后来说话更早。
+how: 你来我往：宝宝发出“啊、咕”的声音时，停下来等他说完再回应，就像在聊天。哈佛大学儿童发展中心把这叫做 serve and return（发球与回球）。
+how: 边做边说：换尿布、洗澡、喂奶时，把正在做的事情说出来（美国育儿书叫 narrating）。不用担心宝宝听不懂。
+how: 真人说话最重要。Kuhl 2003 年的研究发现，9 个月大的宝宝能从真人身上学到外语语音，只看影像或只听录音却学不到。美国儿科学会也建议 18 个月以下除了视讯通话不看屏幕。所以这个网站是给爸妈用的，不是给宝宝看的。
+ms: 2 个月 | 会发出哭以外的声音；听到大的声响会有反应。
+ms: 4 个月 | 会发出 “oooo”“aahh” 这样的声音（cooing）；你跟他说话时，他会发出声音回应；会转头找你的声音。
+ms: 6 个月 | 会跟你轮流发出声音；会吹口水发出“噗噗”声（blows raspberries）；会尖声叫（squeals）。
+
+## wake | sun | 早安起床 | Good Morning | 起床 醒 醒来 早上 早安 早晨 睡醒
+note: 每天第一句话，用开心、惊喜的语气说。
+Good morning, sunshine! | 早安，小太阳！ | 美国爸妈常这样叫宝宝：sunshine、sweetie、honey、sweet pea、peanut、bug。男孩也常叫 buddy。 | Morning, sweetie!
+Look who's awake! | 看看谁醒啦！ | 很地道的说法，语气带着惊喜。who's = who is。 | Look who's up!
+You're up! | 你醒啦！ | up 在口语里就是“醒着、起床了”。
+Did you sleep well? | 睡得好吗？ | | How did you sleep?
+Did you have sweet dreams? | 做了好梦吗？
+Hi there, little one. | 嗨，小宝贝。 | little one 是对小宝宝的温柔称呼。
+Mommy missed you. | 妈妈好想你。 | 睡一觉醒来，美国妈妈也会这样说。可以换成 Daddy missed you.
+Stretch, stretch, stretch! | 伸个懒腰～ | 宝宝伸展的时候边说边帮他把小手举高。 | Big stretch!
+Up we go! | 抱起来咯！ | 把宝宝抱起来时说。 | Upsy-daisy!
+Let's open the curtains. | 我们把窗帘拉开吧。 | 百叶窗叫 blinds：Let's open the blinds.
+It's a bright, sunny day. | 今天阳光好好。 | 下雨天：It's a rainy day today.
+Let's go say good morning to Daddy. | 我们去跟爸爸说早安。 | 可以换成 Mommy、Grandma。
+Oh, someone needs a diaper change. | 哎呀，有人要换尿布啦。 | 用 someone 代替 you，是美国爸妈调皮的说法。
+
+## feed | bottle | 喂奶 | Feeding | 喂奶 喝奶 吃奶 奶瓶 母乳 亲喂 配方奶 饿 吃饱
+note: 喂奶时间很长，正好跟宝宝慢慢说话。
+Are you hungry? | 饿了吗？ | | Are you getting hungry?
+Who's a hungry baby? | 谁是饿饿的宝宝呀？ | 美国爸妈很爱用 Who's a… 的问句逗宝宝，答案永远是 You are!
+I see you rooting. You must be hungry. | 我看到你在找奶吃，一定是饿了。 | rooting 是宝宝转头张嘴找奶的“觅食反射”，美国护理师和育儿书都这样说。
+It's time to eat. | 该吃奶了。 | | Time for milk!
+Milk is coming! | 奶来啦！ | | Here comes your milk!
+Let me get your bottle. | 我去拿你的奶瓶。
+Let me check if it's too hot. | 我试一下会不会太烫。 | 美国常见做法：把奶滴在手腕内侧试温度。
+Here you go. | 来，给你。 | 递东西给人时最常用的一句。
+Nice and slow. | 慢慢喝。 | nice and + 形容词，表示“恰到好处地……”。 | Slow down, buddy.
+What a good eater! | 你好会吃哦！ | good eater 是美国人夸孩子吃得好、不挑食的说法。
+Let's switch sides. | 我们换另一边。 | 亲喂换边时说。
+Is your tummy full? | 小肚子饱了吗？ | 对宝宝说肚子用 tummy，比 stomach 亲切得多。
+Are you all done? | 吃饱了吗？ | all done 是美国家庭最常用的“结束了”，以后还会教宝宝 all done 的手语。 | All done?
+Are you still hungry? | 还饿吗？
+You were so hungry! | 你好饿哦！
+Look at that milk-drunk face. | 看你这“喝醉奶”的小脸。 | milk-drunk：宝宝吃饱后迷迷糊糊、很满足的样子，美国爸妈很爱说。
+Don't fall asleep yet. | 先别睡着哦。
+
+## burp | bubbles | 拍嗝 | Burping | 拍嗝 打嗝 嗝 胀气 吐奶 溢奶
+note: burp 可以当动词：burp the baby 就是给宝宝拍嗝。
+Let's burp you. | 我们来拍拍嗝。 | | Burp time!
+Time for a burp. | 该拍嗝了。
+Pat, pat, pat. | 拍拍拍。
+Can you give me a big burp? | 打个大嗝给我好吗？
+Let's get those bubbles out. | 把肚子里的气泡拍出来。 | 美国人常把胀气说成 bubbles 或 gas。
+There it is! | 出来啦！ | 等了很久终于出来时说。
+Good burp! | 好嗝！ | 美国爸妈真的会这样夸，语气要开心。
+That was a big one! | 好大一个！
+Feel better? | 舒服点了吗？ | 口语常省略 Do you。
+Uh-oh, spit-up. | 哎呀，吐奶了。 | spit up 指少量溢奶；大量喷出来才说 throw up 或 vomit。
+Let me grab a burp cloth. | 我拿一下拍嗝巾。 | burp cloth 是垫在肩上的小布，美国家庭必备。grab = 顺手拿。
+
+## diaper | diaper | 换尿布 | Diaper Change | 换尿布 尿布 尿片 纸尿裤 尿 便便 大便 小便 屁屁 尿布疹 湿纸巾
+note: 不要说 “change diaper”，要说 change your diaper 或 change the diaper。
+Let's change your diaper. | 我们换尿布吧。 | | Let's get you changed.
+Time for a fresh diaper. | 换个干净的尿布。 | fresh 在这里是“干净的、新的”。
+Let me check your diaper. | 我检查一下尿布。
+Is your diaper wet? | 尿布湿了吗？
+Did you go poop? | 你是不是便便了？ | 美国家庭最常用 poop（便便）和 pee 或 pee-pee（尿尿）。 | Did you poop?
+Phew, stinky! | 哇，好臭！ | 语气夸张好玩，不是嫌弃。 | Pee-yew!
+Somebody had a blowout! | 有人“爆屎”了！ | blowout：便便从尿布漏出来弄脏衣服，美国爸妈人人都懂的词。
+This might be a little cold. | 可能会有点凉哦。 | 用湿纸巾（wipes）之前先提醒。
+Wipe, wipe, wipe. | 擦擦擦。
+Legs up! | 抬腿！
+Kick, kick! Look at those legs. | 踢踢腿！看这双小腿。
+Let's put on some cream. | 涂一点护臀膏。 | 尿布疹叫 diaper rash，护臀膏叫 diaper cream。
+Almost done. | 快好了。
+All clean! | 全干净啦！ | | Nice and clean!
+Nice and dry. | 干干爽爽。
+There we go! | 好啦！ | There we go 或 There you go 表示“好了、完成了”，美国人每天说几十次。
+
+## bath | tub | 洗澡 | Bath Time | 洗澡 洗头 泡澡 澡盆 浴巾 水温 乳液
+Bath time! | 洗澡时间到！ | | It's bath time!
+Let's check the water. | 我们试一下水温。
+Nice warm water. | 暖暖的水。
+Splish splash! | 哗啦哗啦！ | 拟声词，形容玩水的声音。
+Let's wash your hair. | 我们洗头发。
+Close your eyes. | 闭上眼睛。
+Let's wash behind your ears. | 洗洗耳朵后面。
+Wash, wash, wash your tummy. | 洗洗洗小肚子。
+Where are your toes? | 你的脚趾头在哪里？
+Look at all those bubbles! | 看这么多泡泡！
+All done! Out we go. | 洗好啦！出来咯。
+Let's wrap you up in your towel. | 用浴巾把你包起来。 | 带帽子的宝宝浴巾叫 hooded towel。
+You smell so good! | 你好香哦！ | 美国人常说刚洗完澡的宝宝有 that baby smell。
+Lotion time. | 擦乳液咯。
+
+## dress | shirt | 穿衣 | Getting Dressed | 穿衣服 衣服 换衣服 包屁衣 连身衣 袜子 帽子 睡衣 冷 凉
+note: 穿用 put on，脱用 take off；“穿好衣服”说 get dressed，不说 wear clothes。
+Let's get you dressed. | 我们来穿衣服。
+What should you wear today? | 今天穿什么呢？
+Here's your onesie. | 这是你的连身衣。 | onesie（包屁衣、连身衣）是美国最常用的叫法，原本是品牌名。
+One arm in. Now the other arm. | 一只手伸进来。再来另一只手。
+Peekaboo! There's your head! | 躲猫猫！头出来啦！ | 套头时顺便玩躲猫猫，宝宝很喜欢。
+Where's your hand? There it is! | 小手呢？在这里！
+Let's snap these up. | 我们把扣子扣上。 | snap 是按扣，就是连身衣底部那几颗。
+Socks on! | 穿袜子！
+Let's put on your hat. | 戴上帽子。
+It's chilly. Let's put on a sweater. | 有点凉，穿件毛衣。 | chilly 是凉凉的，比 cold 轻一点。
+PJs on! | 穿上睡衣！ | PJs 就是 pajamas，也说 jammies。
+You look so cute! | 你好可爱！
+Look at you! | 看看你！ | 赞叹的说法，意思是“哇，你看你多可爱/多棒”。
+
+## sleep | moon | 哄睡 | Sleepy Time | 睡觉 哄睡 午睡 小睡 困 晚安 包巾 奶嘴 白噪音 半夜 夜醒
+note: 美国常说 nap（白天小睡）和 bedtime（晚上睡觉）。
+Are you getting sleepy? | 是不是困了？
+Look at you yawning. | 看你在打哈欠。 | yawn 是打哈欠，也可以直接说 Big yawn!
+You're rubbing your eyes. | 你在揉眼睛。 | 揉眼睛、打哈欠这些叫 sleepy cues（想睡的信号）。
+It's nap time. | 午睡时间到了。 | nap 指白天的小睡，不一定在中午。
+Let's swaddle you up. | 我们把你包起来。 | swaddle 是用包巾把新生儿包紧，美国医院教的标准做法。
+Snug as a bug in a rug. | 包得暖暖的，好舒服。 | 押韵的俗语，字面是“像毯子里的小虫一样舒服”。
+Shh, shh, shh. | 嘘～嘘～嘘～
+Close your eyes, sweetie. | 闭上眼睛吧，宝贝。
+Here's your pacifier. | 给你安抚奶嘴。 | 口语常叫 binky 或 paci。 | Here's your binky.
+Let's turn on your sound machine. | 打开白噪音机。 | 美国家庭很普遍用白噪音机帮宝宝睡觉。
+Time for bed. | 该睡觉了。 | | It's bedtime.
+Lights off. | 关灯咯。
+Night-night. | 晚安。 | 对宝宝说 Night-night 比 Good night 更亲昵。 | Nighty-night.
+Sleep tight. | 睡个好觉。 | 常连着说：Good night, sleep tight.
+Sweet dreams. | 做个好梦。
+Mommy's right here. | 妈妈就在这里。 | 也可以说 Daddy's right here.
+Back to sleep, little one. | 继续睡吧，小宝贝。 | 半夜醒来时轻声说。
+I love you. See you in the morning. | 我爱你。明天早上见。
+
+## night | moon | 夜里醒来 | Night Wakings | 夜奶 半夜 夜醒 凌晨 晚上 醒来 哄睡 灯光
+note: 夜里说话要轻、要短，灯光调暗，让宝宝慢慢知道晚上是睡觉的时间。
+Hi, sweetie. It's still nighttime. | 嗨，宝贝。现在还是晚上哦。
+Shh, it's sleepy time. | 嘘，现在是睡觉时间。
+Let's keep the lights low. | 我们把灯光调暗一点。
+Are you hungry? Let's have some milk. | 饿了吗？我们喝点奶。
+Let's change you real quick. | 我们快快换个尿布。 | real quick 是很口语的“很快地”，语法上不标准，但美国人天天这样说。
+You're wide awake, huh? | 你精神很好嘛？ | wide awake 是完全清醒。半夜宝宝睁大眼睛时，带点无奈地笑着说。
+It's three in the morning, buddy. | 现在是凌晨三点，小家伙。 | 无奈又好笑的语气。
+Daddy's got you. Let Mommy sleep. | 爸爸抱你，让妈妈睡一下。
+Let's rock you back to sleep. | 我们摇一摇，再睡回去。
+You're so sleepy. | 你好困哦。
+Close your eyes. Mommy's right here. | 闭上眼睛，妈妈就在这里。
+Good night again, little one. | 再说一次晚安，小宝贝。
+
+## soothe | cloud | 安抚哭闹 | Soothing | 哭 哭闹 安抚 安慰 不舒服 没事 抱抱 闹 肠绞痛
+note: 宝宝哭的时候，先承认他的感受，再找原因。语气慢、低、稳。
+Oh, what's wrong? | 哦，怎么了？ | | What's the matter?
+It's okay. It's okay. | 没事，没事。
+Mommy's got you. | 妈妈抱着你呢。 | I've got you（口语常说 I got you）：有我在、我接住你了。很地道。 | I've got you.
+I know, I know. | 我知道，我知道。 | 宝宝哭时边拍边说，意思是“我懂你的委屈”。
+Shh, you're okay. | 嘘，你没事的。
+You're all right. | 你没事的。 | 美国人安抚时常说 You're all right 或 You're okay。
+Are you hungry, or are you tired? | 你是饿了，还是累了？
+Do you need a new diaper? | 是不是要换尿布了？
+Is it your tummy? | 是肚子不舒服吗？
+Do you want your binky? | 要奶嘴吗？
+Let's walk around. | 我们走一走。
+Let's rock, rock, rock. | 摇呀摇呀摇。
+That's a big cry. | 哭得好大声哦。
+Poor baby. | 可怜的宝宝。 | 带同情的安慰语，不是贬义。
+I'm right here. I'm not going anywhere. | 我就在这里，我哪儿也不去。
+There, there. | 好了，好了。 | 比较老派的安慰话，奶奶辈常说。
+
+## tummy | star | 趴趴练习 | Tummy Time | 趴 趴着 趴趴 抬头 翻身 练习 镜子
+note: 美国儿科学会建议宝宝醒着、有大人看着的时候，每天多次趴着玩（tummy time）。
+It's tummy time! | 趴趴时间到！
+Can you lift your head? | 你能抬起头吗？
+Look up here! | 往上看这里！
+Push, push! You're so strong! | 撑起来！你好有力气！
+Look at you holding your head up! | 看你把头抬起来了！
+Where's Mommy? Here I am! | 妈妈在哪里？我在这里！
+Look in the mirror! Who's that? | 看镜子！那是谁呀？
+You're working so hard. | 你好努力哦。
+Just a little bit longer. | 再坚持一下下。
+Okay, that's enough. Let's roll over. | 好了，够了，我们翻过来。
+Wow, you rolled over! | 哇，你翻身了！ | roll over 是翻身。
+
+## play | rattle | 玩耍互动 | Playtime | 玩 游戏 躲猫猫 摇铃 笑 唱歌 读书 聊天 互动 咕咕
+note: 宝宝发出声音时，就当他在跟你说话，认真回应。
+Peekaboo! | 躲猫猫！ | 先捂住脸说 Where's Mommy?，再打开说 Peekaboo! 发音 peek-a-boo。 | Peek-a-boo, I see you!
+Where's Mommy? | 妈妈在哪里？
+I see you! | 我看到你啦！
+Oh, are you talking to me? | 哦，你在跟我说话吗？ | 宝宝发出咕咕声时这样回应，这就是“你来我往”的对话。
+Tell me more! | 再跟我多说一点！
+Really? Then what? | 真的吗？然后呢？
+You're so chatty today! | 你今天话好多哦！ | chatty 是话多、爱聊天的。
+What a big smile! | 好大的笑容！
+Are you smiling at me? | 你在对我笑吗？
+Here's your rattle. | 这是你的摇铃。
+Shake, shake, shake! | 摇摇摇！
+Do you hear that? | 你听到了吗？
+Can you follow the toy? | 你的眼睛能跟着玩具走吗？
+I'm gonna get your toes! | 我要抓你的脚趾头啦！ | gonna = going to，是很自然的口语。
+Gotcha! | 抓到你了！ | gotcha = got you。
+I'm gonna blow a raspberry on your tummy! | 我要在你肚子上吹噗噗！ | blow a raspberry：嘴唇贴着皮肤吹气发出噗噗声，美国爸妈的经典逗笑方式。
+Let's sing a song. | 我们来唱歌吧。
+Let's read a book. | 我们来读本书。
+
+## out | stroller | 出门散步 | Going Out | 出门 散步 推车 安全座椅 坐车 外面 公园 小狗 小鸟 回家
+Let's go for a walk. | 我们去散步吧。
+Let's get you in the stroller. | 我们坐上推车。 | stroller 是美国说法，英国叫 pram 或 pushchair。
+Let's buckle you in. | 我们把你扣好。 | buckle 是扣上安全带。
+Car seat time. | 坐安全座椅咯。
+Look at the trees! | 看那些树！
+Do you feel the wind? | 你感觉到风了吗？
+The sun is too bright. Let's pull the shade down. | 太阳太亮了，把遮阳篷拉下来。 | 推车的遮阳篷叫 shade 或 canopy。
+Look, a doggy! Woof woof! | 看，小狗！汪汪！ | 对小宝宝说动物常加 -y：doggy、kitty、horsey。
+Look at the birds! Tweet tweet. | 看那些小鸟！啾啾。
+Do you hear the car? Vroom vroom! | 听到车子的声音吗？呜呜！
+We're going to Grandma's house. | 我们要去奶奶家。 | 美国不分奶奶、外婆，都叫 Grandma，有的家庭叫 Nana 或 Grammy。
+Wave bye-bye! | 挥手说拜拜！
+Let's go home. | 我们回家吧。
+We're home! | 到家啦！
+
+## love | heart | 说爱你 | Love & Praise | 爱 爱你 喜欢 亲亲 抱抱 可爱 夸奖 称赞 骄傲 宝贝
+note: 美国家庭每天把 I love you 挂在嘴边，爸爸也一样。
+I love you so much. | 我好爱你。
+I love you to the moon and back. | 我爱你，爱到月亮那么远再回来。 | 美国很流行的爱的表达。
+You're my sweet baby. | 你是我的甜心宝宝。
+Who's my favorite baby? You are! | 谁是我最喜欢的宝宝？就是你！
+You are so loved. | 好多人好爱你。
+Big hug! | 抱抱！
+Give me kisses! | 亲亲我！ | 亲的时候发出 Mwah! 的声音。
+I could just eat you up! | 好想把你吃掉！ | 美国大人觉得宝宝可爱到不行时常说。
+Look at those chubby cheeks! | 看这肉嘟嘟的小脸！
+We're so lucky to have you. | 有你我们好幸运。
+You're the best thing that ever happened to us. | 你是我们遇过最美好的事。
+You did it! | 你做到了！
+Good job! | 做得好！ | 等孩子大一点，更建议说出具体做到了什么，见 3–6 岁“鼓励成长”。
+I'm so proud of you. | 我好为你骄傲。
+Daddy loves you too. | 爸爸也爱你。
+
+## dad | people | 爸爸时间 | Daddy Time | 爸爸 爸比 陪玩 抱 下班 回家 让妈妈休息
+note: 爸爸也可以说英文！这些句子很短，带点口音也没关系，宝宝最爱听爸爸的声音。
+Daddy's home! | 爸爸回来啦！
+Come here, buddy. | 过来，小家伙。 | buddy 常用来叫男孩；女孩可以说 sweetie 或 princess。
+Daddy's got you. | 爸爸抱着你呢。
+Do you want to hang out with Daddy? | 想跟爸爸一起玩吗？ | hang out 是一起待着、一起玩，很口语。
+Let's give Mommy a break. | 我们让妈妈休息一下。
+Who's Daddy's little buddy? | 谁是爸爸的小伙伴？ | 女孩可以说 Who's Daddy's little girl?
+Let's go see Mommy. | 我们去找妈妈。
+Daddy loves you so much. | 爸爸好爱你。
+You're getting so big! | 你长好大了！
+High five for Daddy! | 跟爸爸击个掌！
+Let's go on an adventure! | 我们去探险吧！ | 抱着宝宝在家里走一圈，也可以说成探险。
+Look, Daddy's making a funny face! | 看，爸爸在做鬼脸！
+
+## body | hand | 身体与按摩 | Body & Massage | 身体 手 脚 手指 脚趾 鼻子 耳朵 肚脐 按摩 剪指甲 擦脸 鼻屎
+Let's give you a massage. | 我们来按摩一下。
+Bicycle legs! | 踩脚踏车！ | 帮宝宝做踩单车的动作，可以帮助排气。
+Where are your fingers? | 你的手指头在哪里？
+Look at your little hands. | 看你的小手。
+Open your hand. | 打开小手。
+One, two, three, four, five little toes! | 一、二、三、四、五个小脚趾！
+Here's your nose. Boop! | 这是你的鼻子，点一下！ | boop 是轻点鼻子的拟声词。
+Those are your ears. | 那是你的耳朵。
+Who has a cute belly button? | 谁有可爱的小肚脐？ | belly button 是肚脐，比 navel 口语多了。
+Tickle, tickle! | 挠痒痒！
+Your hair is so soft. | 你的头发好软。
+Let's trim your nails. | 我们剪剪指甲。 | trim 是修剪，婴儿指甲刀叫 baby nail clippers。
+Let me wipe your face. | 我帮你擦擦脸。
+Oops, you have a booger. | 哎呀，你有鼻屎。 | booger 是鼻屎，美国小孩超爱这个词。
+
+## doctor | medical | 看医生 | Doctor Visits | 医生 看医生 打针 疫苗 体检 健康检查 发烧 体温 生病 鼻塞
+note: 美国叫儿科医生 pediatrician，口语直接说 the doctor。
+We're going to see the doctor today. | 今天我们去看医生。
+It's your checkup. | 你要做健康检查。 | 例行体检叫 checkup 或 well-baby visit。
+Let's see how big you're getting! | 看看你长多大了！
+Time to get weighed. | 要量体重了。
+It'll be quick. | 很快就好。
+You're getting your shots today. | 你今天要打疫苗。 | shots 是“打针”最常用的口语。
+Ouch! I know, that hurt. | 哎哟！我知道，很痛。 | 不要说“不痛不痛”，承认感受更好。
+All done! You were so brave. | 打完了！你好勇敢。
+You're not feeling well, huh? | 你不太舒服，对吧？ | 句尾加 huh，带着体贴的语气。
+Do you have a fever? | 你发烧了吗？
+Let me take your temperature. | 我帮你量体温。
+Stuffy nose? Let's clear it out. | 鼻塞了吗？我们清一清。 | stuffy nose 是鼻塞，吸鼻器口语叫 snot sucker。

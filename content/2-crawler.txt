@@ -1,0 +1,179 @@
+# s1 | 6–12 个月 | 爬爬宝宝 | Crawler | 6 | 12
+intro: 宝宝开始吃辅食、爬来爬去、听懂越来越多。说短句、多重复，加上手势。
+how: 说短句、多重复：同一个词在不同场景说很多次，比如 ball、up、more、all done。
+how: 跟着宝宝的兴趣说：他在看什么，你就说什么（美国叫 follow the child's lead）。
+how: 加上手势：挥手 bye-bye、拍手、more 和 all done 的手语，帮宝宝先用动作沟通。
+how: 每天一起看书：指着图片说出名字，问 Where's the dog?，再帮他指出来。
+ms: 9 个月 | 会发出很多不同的声音，比如 “mamamama”“babababa”；会举起双手要你抱。
+ms: 12 个月 | 会挥手说拜拜；会叫 “mama”“dada” 或其他特别的称呼；听得懂 “no”（听到会停一下）。
+
+## solids | spoon | 吃辅食 | Starting Solids | 辅食 吃饭 喂饭 餐椅 围兜 汤匙 勺子 好吃 难吃 喝水 手抓食物
+note: more 和 all done 的手语：more 是双手指尖碰在一起；all done 是双手张开、掌心朝自己翻转摇一摇。
+Let's sit in your high chair. | 坐上你的餐椅。 | high chair 是宝宝餐椅。
+Bib on! | 戴上围兜！
+Do you want to try some? | 要不要尝尝看？
+Open wide! | 张大嘴！ | | Open up!
+Here comes the airplane! | 飞机来咯！ | 美国爸妈喂饭的经典游戏，汤匙当飞机，嘴里发出 vroom 的声音。
+Mmm, yummy! | 嗯，好好吃！
+Is it yummy? | 好吃吗？
+Yucky? You don't like it? | 不好吃吗？你不喜欢？ | yucky 是难吃、恶心的，宝宝很快就学会。
+That's banana. Can you say banana? | 这是香蕉。你会说 banana 吗？
+More? | 还要吗？ | 一边说一边做 more 的手语。
+Do you want more? | 你还要吗？
+All done? | 吃完了吗？
+Chew, chew, chew. | 嚼嚼嚼。
+Small bites. | 小口小口吃。
+Pick it up with your fingers. | 用手指捡起来。 | 手抓食物叫 finger foods。
+Take a sip of water. | 喝一小口水。 | 鸭嘴杯叫 sippy cup，吸管杯叫 straw cup。
+Uh-oh! It fell down. | 哎呀，掉下去了！ | uh-oh 也是宝宝很早就会说的词。
+Food goes in your mouth, not on the floor. | 食物放进嘴里，不是丢在地上。
+What a mess! | 好乱哦！ | 语气轻松，不是骂人。
+Let's wipe your face. | 我们擦擦脸。
+
+## crawl | steps | 爬行探索 | Crawling & Exploring | 爬 爬行 站 扶站 探索 找到 球 快 抓
+Come to Mommy! | 爬到妈妈这里来！
+You can do it! | 你可以的！
+Look at you go! | 看你爬得好快！ | 看孩子行动时的赞叹，非常地道。
+Where are you going? | 你要去哪里呀？
+I'm gonna get you! | 我要抓到你咯！
+You're so fast! | 你好快！
+You pulled up! You're standing! | 你拉着站起来了！你站起来了！ | pull up 是扶着东西站起来。
+Hold on to the couch. | 扶着沙发。 | 美国多说 couch，也说 sofa。
+Boom! Down you go. | 砰！坐下去咯。
+What did you find? | 你找到什么了？
+Is that a ball? | 那是球吗？
+Bang, bang! You're a drummer! | 砰砰！你是鼓手！
+Let's put it in the box. | 我们放进盒子里。
+In! Out! | 进去！出来！
+Up, up, up! | 上、上、上！
+Down, down, down. | 下、下、下。
+
+## safety | shield | 安全与“不行” | Safety & No | 安全 不行 不可以 不要 危险 烫 小心 咬人 打人 轻轻 撞到 痛
+note: 说 No 的时候同时说原因，语气坚定但平静。美国家长常用“转移注意力”（redirect）。
+No, no. That's not safe. | 不行不行，那不安全。
+Hot! Don't touch. | 烫！不要摸。
+That's not for babies. | 那不是宝宝玩的。
+Not in your mouth. | 不要放嘴巴里。
+Let's put that down. | 我们把那个放下。
+Let's play with this instead. | 我们改玩这个吧。 | 这就是“转移注意力”。
+Gentle, gentle. | 轻轻的，轻轻的。 | 摸小动物或别人的脸时说。 | Gentle hands. / Nice touches.
+Be gentle with the kitty. | 对小猫轻一点。
+Ouch! That hurts. | 哎哟，好痛！ | 宝宝咬人、扯头发时，用这句让他知道。
+Stay away from the stairs. | 离楼梯远一点。 | 楼梯口的安全门叫 baby gate。
+Uh-oh, you bumped your head. | 哎呀，你撞到头了。
+Are you okay? Let me see. | 你还好吗？让我看看。
+Let me kiss it better. | 亲一下就不痛了。 | 美国妈妈的经典说法。
+Here, chew on this. | 来，咬这个。 | 长牙时给的牙胶叫 teether。
+
+## gestures | wave | 挥手拍手 | Waving & Clapping | 挥手 拜拜 拍手 击掌 飞吻 指 点头 摇头 抱抱 谢谢
+Wave bye-bye! | 挥手拜拜！
+Can you say hi? | 你会说嗨吗？
+Clap your hands! | 拍拍手！
+Yay! | 耶！
+Give me five! | 击个掌！ | 也说 High five! 对小宝宝常说 Gimme five!
+Blow a kiss! | 飞吻一个！
+How big is baby? So big! | 宝宝有多大？这么大！ | 美国经典互动游戏：问 How big is baby?，把宝宝双手举高说 So big!
+Can you point to the light? | 你能指一下灯吗？
+Shake your head. | 摇摇头。
+Can you nod? | 你会点头吗？
+Arms up! | 手举高！
+Do you want up? | 你要抱抱吗？ | 美国小孩伸手要抱时说 Up!，大人就问 Up? 或 Do you want up?
+Thank you! | 谢谢！ | 宝宝递东西给你时一定要说，示范礼貌。
+Can I have it? Thank you! | 可以给我吗？谢谢！
+Your turn! | 换你！
+
+## words | chat | 认识世界 | Naming Things | 认识 东西 名字 颜色 大小 开关 动物 车 什么 那是什么
+note: 一次说一个重点词，重复两三次。宝宝听得懂的远比会说的多。
+What's that? | 那是什么？
+That's a light. Light! | 那是灯。灯！
+Look! A kitty! Meow. | 看！猫咪！喵～
+The doggy says woof woof. | 小狗说汪汪。
+What does the cow say? Moo! | 牛怎么叫？哞！
+Ball! Do you want the ball? | 球！你要球吗？
+Where's the ball? There it is! | 球呢？在那里！
+That's your cup. | 那是你的杯子。
+That's Daddy's phone. | 那是爸爸的手机。
+It's red. | 它是红色的。
+Is it big or small? | 它是大的还是小的？
+Open! Close! | 打开！关上！
+On! Off! | 开！关！ | 开关灯的时候说。
+Let's look out the window. | 我们看看窗外。
+Is that a truck? Beep beep! | 那是卡车吗？哔哔！
+It's raining. | 下雨了。
+
+## family | home | 家人 | Family | 家人 妈妈 爸爸 奶奶 外婆 爷爷 外公 阿姨 舅舅 叔叔 表哥 堂姐 视讯 照片
+note: 美国不分父系母系：Grandma、Grandpa、aunt、uncle、cousin 都是统称。
+Can you say Mama? | 你会说妈妈吗？
+Where's Daddy? There's Daddy! | 爸爸在哪里？爸爸在那里！
+That's Grandma. | 那是奶奶。 | 外婆也叫 Grandma。很多家庭为了区分会叫 Nana、Grammy 或 Grandma 加名字。
+Grandpa's here! | 爷爷来了！ | 外公也叫 Grandpa，也有家庭叫 Papa、Pop-Pop。
+Give Grandpa a hug. | 抱一下爷爷。
+Say hi to Grandma! | 跟奶奶说嗨！
+Let's video call Grandma. | 我们跟奶奶视讯。 | 美国人也直接说 Let's FaceTime Grandma.
+Auntie loves you. | 阿姨好爱你。 | aunt 包括阿姨、姑姑、舅妈等，小孩常说 Auntie 加名字。
+Uncle Joe is here. | Joe 舅舅来了。 | uncle 包括舅舅、叔叔、伯伯、姑丈等。
+Your cousin is coming over. | 你的表哥要来家里。 | cousin 是所有堂、表兄弟姐妹的统称。come over 是来家里。
+Who's this in the picture? | 照片里这是谁？
+That's you when you were a tiny baby! | 那是你还是小小宝宝的时候！
+
+## book | book | 读绘本 | Reading Together | 读书 绘本 看书 故事 翻页 翻翻书 触摸书 讲完 再一次
+Let's read a book together. | 我们一起读本书。
+Which book do you want? | 你想看哪本书？
+Can you turn the page? | 你会翻页吗？
+What's on this page? | 这一页有什么？
+Where's the bunny? | 小兔子在哪里？
+Can you find the duck? | 你能找到小鸭子吗？
+Look, he's sleeping. | 看，他在睡觉。
+Touch the soft fur. | 摸摸软软的毛。 | 能摸的绘本叫 touch-and-feel books。
+Lift the flap! | 掀开小翻页！ | 翻翻书叫 lift-the-flap books。
+The end! | 讲完啦！
+One more time? | 再讲一次吗？ | 宝宝最爱重复同一本书，这很正常，也很好。
+Don't eat the book! | 不要吃书！
+
+## bath2 | tub | 洗澡玩水 | Bath & Splash | 洗澡 玩水 澡盆 小鸭子 洗头 冲水 擦干 冷
+Sit down in the tub, please. | 请坐在澡盆里。 | tub 是浴缸、澡盆。洗澡时不要让宝宝站起来。
+Splash, splash! | 泼水泼水！
+Pour the water. | 把水倒出来。
+Where's your duckie? | 你的小鸭子呢？ | 小黄鸭叫 rubber duckie。
+Let's wash your hair. Look up! | 洗头发咯，往上看！
+Rinse, rinse. | 冲冲水。
+Don't drink the bath water! | 不要喝洗澡水！
+Pull the plug. Bye-bye, water! | 拔塞子。水水拜拜！
+Brr, are you cold? | 冷吗？ | Brr 是冷得发抖的声音。
+Let's dry off. | 我们擦干。
+
+## teeth | tooth | 长牙 | Teething | 长牙 牙齿 牙龈 口水 牙胶 刷牙 第一颗牙
+Are you getting a tooth? | 你要长牙了吗？
+Are your gums sore? | 牙龈痛吗？ | sore 是酸痛。
+Lots of drool today! | 今天口水好多！ | drool 是口水。也说 You're so drooly!
+Do you want your teether? | 要牙胶吗？
+Let me see your tooth! | 让我看看你的牙！
+Your first tooth! | 你的第一颗牙！
+Let's brush your tooth. | 我们刷刷牙。 | 只有一颗牙时用 tooth，多颗用 teeth。
+Open up. Let's brush. | 张开嘴，我们刷牙。
+
+## sleep2 | moon | 睡前程序 | Bedtime Routine | 睡觉 睡前 洗澡 看书 小床 晚安 夜醒 分离焦虑 马上回来
+note: 美国家庭很重视固定的睡前程序（bedtime routine），每天顺序一样，宝宝更容易入睡。
+Bath, book, bed. | 洗澡、看书、睡觉。 | 美国常见的睡前三部曲。
+Time to say good night. | 该说晚安了。
+Say good night to the moon. | 跟月亮说晚安。 | 来自美国经典绘本 Goodnight Moon。
+Night-night, teddy. | 泰迪熊晚安。
+Into your crib. | 进小床咯。 | crib 是婴儿床。
+Lie down. | 躺下。
+It's still nighttime. | 现在还是晚上。
+Go back to sleep. | 继续睡吧。
+You're safe. Mommy's close by. | 你很安全，妈妈就在旁边。 | 八九个月常有分离焦虑（separation anxiety），这句很有用。
+I'll be right back. | 我马上回来。
+I'll see you in the morning. | 我们早上见。
+
+## car | car | 坐车出门 | Going Bye-Bye | 出门 坐车 安全座椅 商店 公交车 红灯 绿灯 到了 音乐
+Let's go bye-bye. | 我们出门咯。 | go bye-bye 是美国小孩说“出门”的说法。
+Into your car seat. | 坐进安全座椅。
+Click! You're all buckled. | 咔！扣好了。
+Where are we going? To the store! | 我们去哪里？去商店！
+Look, a bus! | 看，公交车！
+Red light. Stop! | 红灯，停！
+Green light. Go! | 绿灯，走！
+Do you want some music? | 要听音乐吗？
+We're almost there. | 快到了。
+We're here! | 到了！

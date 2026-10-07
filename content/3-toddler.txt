@@ -1,0 +1,168 @@
+# s2 | 1–2 岁 | 学说话 | Toddler | 12 | 24
+intro: 第一个词出来了！这一年要帮孩子把词变多，再把两个词连起来。
+how: 扩展（expand）：孩子说 “dog”，你说 “Yes, a big dog!”，比他多说一两个词。
+how: 给选择：问 Milk or water?，让孩子有机会开口。
+how: 多等几秒：问完问题等 5 秒，给孩子时间想、时间说。
+how: 不纠正，只示范：孩子说 “nana”，你就说 “Banana! You want a banana.”
+ms: 15 个月 | 会试着说一两个 mama、dada 以外的词；你说出熟悉东西的名字时，他会去看；会用手指东西表示要。
+ms: 18 个月 | 会试着说三个以上 mama、dada 以外的词；不用手势也能听懂一个步骤的指令，比如 “Give it to me.”
+ms: 2 岁 | 会把两个词连在一起说，比如 “More milk”；会指出至少两个身体部位；你问书里的东西时，他会用手指。
+
+## meal | bowl | 吃饭 | Mealtime | 吃饭 午饭 晚饭 早餐 点心 汤匙 自己吃 还要 吃完 丢食物 喝水 牛奶
+Are you hungry? It's lunchtime. | 饿了吗？午饭时间到了。 | 早餐 breakfast，晚餐 dinner。
+Come sit down. | 过来坐下。
+Use your spoon. | 用你的汤匙。
+Can you do it by yourself? | 你可以自己来吗？
+Big bite! | 大口吃！
+Do you want more, or are you all done? | 你还要，还是吃完了？ | 给两个选择，让宝宝说 more 或 all done。
+Say "more, please." | 说 more, please。
+Milk or water? | 牛奶还是水？
+Is it hot? Blow on it. | 烫吗？吹一吹。
+Try one bite. | 吃一口试试。 | 美国很多家庭有“试一口”规则（one-bite rule）。
+Don't throw your food. | 不要丢食物。
+If you throw it, that means you're all done. | 如果你丢，就表示你吃完了。
+Wow, you ate it all! | 哇，你全吃完了！
+Snack time! | 点心时间！ | snack 是正餐之间的小点心。
+Crunchy! | 脆脆的！
+Cheers! | 干杯！ | 用水杯跟大人碰杯，宝宝很喜欢。
+Wipe your hands. | 擦擦手。
+
+## talk | chat | 学说话 | First Words | 说话 学说话 开口 第一个词 说 跟我说 用说的 这是什么 指给我看
+note: 孩子说半个词也要热情回应，再把完整的词说一次。
+Can you say "ball"? | 你会说 ball 吗？
+Ba-ll. Ball! | 球。球！ | 慢慢把音拉长给宝宝听。
+Yes! That's a ball! | 对！是球！ | 孩子只说出 “ba” 也要热情回应，再说完整的词。
+You said "dog"! | 你说了 dog！
+What's this? | 这是什么？
+Who's that? It's Grandpa! | 那是谁？是爷爷！
+Is it a cat or a dog? | 是猫还是狗？
+Show me. | 指给我看。
+Tell me what you want. | 告诉我你要什么。
+Use your words. | 用说的。 | 美国家长超常用：鼓励孩子用说话代替哭闹或抢。
+Do you want the apple? Say "apple." | 你要苹果吗？说 apple。
+Big truck! | 大卡车！ | 形容词加名词，帮孩子把词连起来。
+The doggy is running. | 狗狗在跑。
+More bubbles? | 还要泡泡吗？
+Let's say it together. | 我们一起说。
+
+## walk | steps | 走路跑跳 | Walking & Moving | 走路 跑 跳 跌倒 摔倒 牵手 爬 溜滑梯 身体部位
+Walk to Daddy! | 走到爸爸这里来！
+Hold my hand. | 牵我的手。
+One step, two steps! | 一步，两步！
+Whoa! Careful. | 哇！小心。
+Oopsie! You fell down. | 哎呀，你跌倒了。 | 美国人说 Oops 或 Oopsie，也说 Oopsy-daisy。
+You're okay. Let's get up! | 你没事，我们站起来！
+Climb up! | 爬上去！
+Let's go down the slide! | 我们溜滑梯！
+Wheee! | 喔～！ | 溜滑梯、荡秋千时的欢呼声。
+Run, run, run! | 跑跑跑！
+Can you jump? | 你会跳吗？
+Where's your nose? | 你的鼻子在哪里？
+Point to your belly. | 指指你的肚子。 | belly 和 tummy 都是肚子，都很口语。
+Head, shoulders, knees, and toes! | 头、肩膀、膝盖、脚趾！
+
+## dress2 | shirt | 穿脱衣服 | Getting Dressed | 穿衣服 穿鞋 脱 袜子 外套 拉链 穿反 选衣服
+Let's put on your shoes. | 我们穿鞋子。
+Push your foot in. | 脚推进去。
+Which shirt do you want? This one or that one? | 你要哪件衣服？这件还是那件？
+Arms up! | 手举高！
+Where did your head go? There it is! | 头跑哪去了？在这里！
+Zip it up. | 拉上拉链。
+Take off your socks. | 脱掉袜子。
+Uh-oh, your shoes are on the wrong feet. | 哎呀，鞋子穿反了。
+You did it by yourself! | 你自己做到了！ | | You did it all by yourself!
+Let's get your jacket. | 我们拿外套。 | 薄外套美国多说 jacket，厚的才说 coat。
+It's cold outside. | 外面很冷。
+Jacket on, then we can go. | 穿上外套，我们就可以出门了。
+
+## clean | sparkle | 收拾与卫生 | Clean Up & Hygiene | 收拾 玩具 收玩具 洗手 刷牙 擤鼻涕 擦鼻子 垃圾 干净 帮忙
+Time to clean up. | 该收拾了。 | clean up 是收拾、整理。
+Let's put the toys away. | 我们把玩具收起来。 | put away 是放回原位。
+Can you put the block in the box? | 你能把积木放进盒子里吗？
+Thank you for helping! | 谢谢你帮忙！
+Let's wash your hands. | 我们洗手。
+Soap, scrub, rinse! | 抹肥皂、搓一搓、冲水！
+Dry your hands. | 把手擦干。
+Brush, brush, brush your teeth. | 刷刷刷牙齿。
+Open wide. Let me get the back. | 张大嘴，我刷后面的牙。
+Spit! | 吐掉！
+Let's wipe your nose. | 我们擦鼻子。
+Blow! | 擤！ | 擤鼻涕是 blow your nose。
+Into the trash. | 丢进垃圾桶。 | 美国说 trash 和 trash can，英国说 rubbish 和 bin。
+All clean! | 全干净了！
+
+## feel | smile | 情绪与哭闹 | Feelings & Tantrums | 情绪 生气 难过 哭闹 耍赖 发脾气 害怕 开心 抱抱 深呼吸 打人
+note: 先说出孩子的感受（命名情绪），再处理行为。美国叫 name it to tame it。
+Are you mad? | 你生气了吗？ | 美国口语的“生气”多说 mad，比 angry 常用。
+You're sad. I know. | 你很难过，我知道。
+You wanted the cookie. | 你想要饼干。 | 先说出孩子想要什么，他会觉得被理解。
+It's hard to wait. | 等待好难哦。
+I'm here. I'll wait with you. | 我在这里，我陪你等。
+Do you need a hug? | 你需要抱抱吗？
+Let's take a deep breath. | 我们深呼吸。
+Smell the flower. Blow out the candle. | 闻闻花香，吹吹蜡烛。 | 美国幼教常用的深呼吸引导：用鼻子吸气（闻花），用嘴巴吐气（吹蜡烛）。
+No hitting. Hitting hurts. | 不可以打人，打人会痛。
+You can stomp your feet. | 你可以跺跺脚。 | 给生气一个安全的出口。
+Uh-oh, are you frustrated? | 哎呀，你是不是很着急？ | frustrated 是着急、挫败，美国育儿最常用的情绪词之一。
+Let me help you. | 我来帮你。
+You can say "help, please." | 你可以说 help, please。
+Are you scared? It's just a loud noise. | 你害怕吗？那只是很大的声音。
+Are you happy? I see a big smile! | 你开心吗？我看到大大的笑容！
+All better? | 好些了吗？
+
+## manners | please | 礼貌 | Manners | 礼貌 请 谢谢 不客气 对不起 分享 借过 拜拜 轮流
+Say please. | 说“请”。
+What do you say? | 你要说什么？ | 提醒孩子说 please 或 thank you 的经典问法。
+Thank you! You're welcome. | 谢谢！不客气。
+Can you share? | 你可以分享吗？
+Say "sorry." | 说“对不起”。
+Excuse me. | 不好意思，借过。
+Say bye-bye to the lady. | 跟阿姨说拜拜。 | 对不认识的人，美国小孩不叫“阿姨、叔叔”，就说 the lady、the man。
+Wait your turn. | 等着轮到你。
+Nice manners! | 好有礼貌！
+
+## park | tree | 公园 | At the Park | 公园 秋千 溜滑梯 沙坑 鸭子 回家 再五分钟 推
+Let's go to the park! | 我们去公园！
+Do you want to swing? | 你想荡秋千吗？
+Push! Higher? | 推！要更高吗？
+Hold on tight. | 抓紧。
+Let's go on the slide. | 我们去溜滑梯。
+Ready, set, go! | 预备，开始！
+Look at the ducks. | 看那些鸭子。
+Let's dig in the sand. | 我们挖沙子。 | 沙坑叫 sandbox。
+Don't eat the sand! | 不要吃沙子！
+Stay close to me. | 待在我旁边。
+Five more minutes, then we go home. | 再五分钟，然后我们回家。 | 提前提醒（transition warning），美国家长必用。
+Time to go. Say bye-bye to the park. | 该走了，跟公园说拜拜。
+
+## animals | paw | 动物叫声 | Animals & Sounds | 动物 叫声 狗 猫 牛 鸭子 猪 羊 马 狮子 鸟 蛇 猫头鹰 蜜蜂 公鸡 青蛙 猴子
+note: 英文的动物叫声跟中文不一样，美国小孩从小就学这些。
+What does the dog say? Woof! | 狗怎么叫？汪！
+The cat says meow. | 猫咪说喵。
+The cow says moo. | 牛说哞。
+The duck says quack quack. | 鸭子说呱呱。
+The pig says oink oink. | 猪说哼哼。 | 英文猪叫是 oink。
+The sheep says baa. | 羊说咩。
+The horse says neigh. | 马说嘶嘶。 | neigh 的读音和 nay 一样。
+The lion says roar! | 狮子吼！
+The bird says tweet tweet. | 小鸟说啾啾。
+The owl says hoo hoo. | 猫头鹰说呼呼。
+The bee says buzz. | 蜜蜂说嗡嗡。
+The snake says hiss. | 蛇说嘶嘶。
+The frog says ribbit. | 青蛙说呱呱。 | 英文青蛙叫是 ribbit。
+The rooster says cock-a-doodle-doo! | 公鸡说喔喔喔！
+The monkey says ooh ooh ah ah. | 猴子说喔喔啊啊。
+
+## bed3 | moon | 睡觉 | Bedtime | 睡觉 睡衣 小毯子 小夜灯 看书 亲亲 晚安 关门
+It's almost bedtime. | 快到睡觉时间了。
+First bath, then books. | 先洗澡，再看书。
+Let's put on your jammies. | 我们穿睡衣。 | jammies 就是 pajamas，小孩的说法。
+Pick two books. | 选两本书。
+Go get your blankie. | 去拿你的小毯子。 | blankie 是小孩的安抚小毯子。
+Give Daddy a kiss good night. | 亲爸爸一下说晚安。
+Lie down, please. | 请躺下。
+It's time to sleep now. | 现在该睡觉了。
+Do you want the night-light on? | 要开小夜灯吗？
+I'll leave the door open a little. | 我把门开一点缝。 | | I'll leave the door cracked.
+Good night. Sleep tight. Don't let the bedbugs bite! | 晚安，睡个好觉，别让臭虫咬你！ | 押韵的传统晚安话，美国几乎每个家庭都会说。
+I love you. Sweet dreams. | 我爱你。做个好梦。

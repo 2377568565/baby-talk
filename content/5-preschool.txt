@@ -1,0 +1,193 @@
+# s4 | 3–6 岁 | 幼儿园 | Preschool | 36 | 72
+intro: 上幼儿园、交朋友、讲故事。用聊天带出更长的句子和更多想法。
+how: 聊一天：用具体的问题代替 How was school?，比如 What made you laugh today?
+how: 一起读书并提问：猜接下来会怎样、找押韵的字、聊人物的感受。
+how: 称赞努力和方法（成长型思维 growth mindset），不只说 You're so smart.
+how: 家规用正面的句子：说 We walk inside. 比说 Don't run! 更有效。
+ms: 4 岁 | 会说四个词以上的句子；会说出儿歌、故事里的一些词；会讲当天发生的至少一件事；能回答简单问题，比如 “What is a coat for?”
+ms: 5 岁 | 会讲有两件以上事情的故事；读完书后能回答简单问题；能来回对话三轮以上；认得或会说简单的押韵（bat–cat、ball–tall）。
+
+## school | backpack | 上学放学 | School Drop-off & Pickup | 上学 放学 幼儿园 背包 午餐 接 送 老师 分离焦虑 想你
+note: 美国 3–5 岁上 preschool，5–6 岁上 kindergarten（小学前的一年）。
+Are you ready for school? | 准备好上学了吗？
+Do you have your backpack? | 你带背包了吗？
+Did you pack your lunch box? | 你的午餐盒放进去了吗？
+Give me a hug and a high five! | 给我一个抱抱和击掌！ | 很多美国家庭有固定的道别仪式（goodbye ritual），孩子比较安心。
+Have a great day! | 祝你今天开心！
+Have fun! I love you. | 玩得开心！我爱你。
+Listen to your teacher. | 要听老师的话。
+Be kind to your friends. | 对朋友要友善。
+I'll pick you up after school. | 放学我来接你。 | pick up 是接人。
+Mommy always comes back. | 妈妈一定会回来。
+I missed you today! | 我今天好想你！
+How was school? | 今天在学校怎么样？
+Did you have fun at school? | 在学校玩得开心吗？
+
+## day | chat | 聊一天 | Talking About the Day | 聊天 今天 学校 怎么样 学了什么 午餐 朋友 开心 难过 感觉 明天
+note: How was school? 常常只换来 Good。问具体的问题，孩子更容易打开话匣子。
+What was the best part of your day? | 今天最棒的是什么？
+What made you laugh today? | 今天什么事让你笑了？
+Who did you play with? | 你跟谁一起玩？
+What did you have for lunch? | 午餐吃了什么？
+What did you learn today? | 你今天学了什么？
+Did anything make you sad today? | 今天有什么事让你难过吗？
+Tell me more about that. | 跟我多说一点。
+Then what happened? | 然后呢？
+How did that make you feel? | 那让你感觉怎么样？
+That sounds like fun! | 听起来好好玩！
+Wow, really? | 哇，真的吗？
+What are you looking forward to tomorrow? | 你明天期待什么？ | look forward to 是期待。
+Rose, thorn, bud. | 玫瑰、刺、花苞。 | 美国家庭的晚餐游戏：rose 是今天的好事，thorn 是不顺的事，bud 是期待的事。
+
+## friends | people | 交朋友 | Friends & Playdates | 朋友 交朋友 一起玩 约玩 邀请 道歉 感受 同理心 输赢 比赛
+Do you want to have a playdate? | 你想约朋友来玩吗？ | playdate 是约小朋友一起玩。
+Can you say hi to your friend? | 你能跟朋友打招呼吗？
+Ask him, "Do you want to play?" | 问他：“你想一起玩吗？”
+Let's take turns. | 我们轮流。
+How do you think she feels? | 你觉得她感觉怎么样？ | 培养同理心（empathy）。
+How can we fix it? | 我们怎么弥补？
+Say "I'm sorry. Are you okay?" | 说：“对不起，你还好吗？”
+It's okay if they say no. | 如果他们说不，也没关系。
+Let's invite her to play. | 我们邀请她一起玩。
+Be a good sport. | 要有运动家精神。 | 输了不哭闹、赢了不炫耀。
+You can't win every time. | 你不可能每次都赢。
+Good game! | 打得好！ | 比赛或游戏结束时双方互说。
+
+## problems | bulb | 解决问题 | Problem Solving | 问题 解决 办法 冷静 深呼吸 休息 计划 沮丧 再试一次
+What's the problem? | 是什么问题？
+What can we do? | 我们可以怎么做？
+Let's think of some ideas. | 我们来想一些办法。
+Is it a big problem or a little problem? | 这是大问题还是小问题？ | 美国学校常这样问，帮孩子判断情绪该有多大。
+Take a deep breath. Let's count to five. | 深呼吸，我们数到五。
+Do you need a break? | 你需要休息一下吗？
+Calm down first, then we can talk. | 先冷静下来，我们再谈。
+I understand you're upset. | 我理解你不开心。
+That's frustrating, huh? | 那很让人沮丧，对吧？
+Can you think of another way? | 你能想出别的方法吗？
+Let's make a plan. | 我们订个计划。
+Mistakes help us learn. | 犯错帮助我们学习。
+You've got this! | 你可以的！ | 很地道的打气话，口语也常说 You got this!
+You don't have to like it, but you have to do it. | 你可以不喜欢，但还是要做。
+
+## rules | list | 家规与家务 | Rules & Chores | 规矩 家规 家务 帮忙 摆碗筷 叠衣服 铺床 屏幕时间 看电视 平板 数到三
+What's the rule? | 规矩是什么？
+In our family, we use kind words. | 在我们家，我们说好听的话。 | In our family, we… 是美国家长讲家规的常用句型。
+We walk inside. | 在室内我们用走的。
+Please put your plate in the sink. | 请把盘子放进水槽。
+Can you help me set the table? | 你可以帮我摆碗筷吗？ | set the table 是摆餐具。
+Please make your bed. | 请整理你的床。
+Put your dirty clothes in the hamper. | 把脏衣服放进脏衣篮。 | hamper 是脏衣篮。
+Help me fold the laundry. | 帮我叠衣服。 | laundry 是要洗或洗好的衣物。
+Let's feed the dog. | 我们去喂狗。
+Screen time is over. | 看屏幕的时间结束了。 | screen time 指看电视、手机、平板的时间。
+One more episode, then we turn it off. | 再看一集，然后就关掉。 | episode 是一集。
+That's not okay. | 那样不可以。
+I'm going to count to three. | 我要数到三了。
+Thanks for being such a big helper! | 谢谢你当我的大帮手！
+
+## learn | pencil | 阅读与学习 | Reading & Learning | 读书 阅读 学习 字母 自然拼读 押韵 数数 形状 写名字 图书馆 故事
+What do you think will happen next? | 你觉得接下来会发生什么？
+Who's in the story? | 故事里有谁？
+Why do you think he did that? | 你觉得他为什么那样做？
+What's your favorite part? | 你最喜欢哪个部分？
+Can you find the letter B? | 你能找到字母 B 吗？
+What sound does B make? Buh, buh, ball! | B 发什么音？b、b、ball！ | 美国学前阶段用自然拼读（phonics）教字母的发音。
+What rhymes with cat? Hat! Bat! | 什么跟 cat 押韵？Hat！Bat！
+Can you sound it out? | 你能拼读出来吗？ | sound it out 是一个音一个音拼出来。
+Let's count to ten. | 我们数到十。
+What shape is this? It's a circle. | 这是什么形状？是圆形。
+Which one is different? | 哪一个不一样？
+Can you write your name? | 你会写你的名字吗？
+Let's go to the library and pick out some books. | 我们去图书馆挑几本书。 | pick out 是挑选。
+
+## holiday | gift | 生日与节日 | Birthdays & Holidays | 生日 节日 蜡烛 礼物 感谢卡 万圣节 感恩节 圣诞节 新年 农历新年 派对
+Happy birthday! | 生日快乐！
+How old are you now? | 你现在几岁了？ | 美国小孩会比着手指回答 I'm four!
+Make a wish and blow out the candles! | 许个愿，吹蜡烛！
+Let's open your presents. | 我们来拆礼物。 | present 和 gift 都是礼物。
+Let's make a thank-you card. | 我们来做张感谢卡。 | 美国家庭收到礼物后，常让孩子写或画 thank-you card。
+Let's get ready for the party! | 我们准备去派对！
+Trick or treat! | 不给糖就捣蛋！ | 万圣节（Halloween）孩子去敲门要糖时说。
+What do you want to be for Halloween? | 万圣节你想扮成什么？
+Happy Thanksgiving! What are you thankful for? | 感恩节快乐！你感谢什么？
+Merry Christmas! | 圣诞快乐！
+Let's decorate the tree. | 我们来布置圣诞树。
+Happy New Year! | 新年快乐！
+Happy Lunar New Year! | 农历新年快乐！ | 美国把农历新年叫 Lunar New Year。
+
+## safety6 | shield | 安全教育 | Staying Safe | 安全 走丢 陌生人 名字 电话 身体 说不 秘密 头盔 泳池 紧急 火
+Do you know your full name? | 你知道自己的全名吗？
+Do you know Mommy's phone number? | 你知道妈妈的电话号码吗？
+If you get lost, find a mom with kids or someone who works at the store. | 如果走丢了，就找带着小孩的妈妈，或是店里的员工。 | 美国常教孩子的走失应对方法。
+Never go anywhere with a stranger. | 绝对不要跟陌生人走。
+Your body belongs to you. | 你的身体是属于你的。 | 美国身体自主教育的标准说法。
+It's okay to say no. | 说“不”是可以的。
+We don't keep secrets, but surprises are okay. | 我们不保守秘密，但惊喜可以。 | 美国专家建议教孩子分清 secret（要瞒着爸妈的事）和 surprise（会揭晓的惊喜）。
+Always ask a grown-up first. | 一定要先问大人。 | grown-up 是小孩说的“大人”。
+Wear your helmet. | 戴上头盔。
+Walk, don't run, by the pool. | 在泳池边用走的，不要跑。
+Call 911 in an emergency. | 紧急情况打 911。 | 这是美国的号码；在台湾，消防和救护车是 119，警察是 110。
+Stop, drop, and roll! | 停下、趴下、打滚！ | 衣服着火时的口诀，美国学校都会教。
+
+## sports | ball | 运动与户外 | Sports & Outdoors | 运动 户外 骑车 脚踏车 球 踢 接 丢 赛跑 游泳 防晒 喝水 蝴蝶 大自然
+Let's ride your bike! | 我们去骑脚踏车！
+Pedal, pedal! | 踩踩踩！
+Look ahead, not down. | 往前看，不要往下看。
+Throw the ball to me. | 把球丢给我。
+Catch! | 接住！
+Kick it! | 踢！
+Nice try! | 不错的尝试！
+On your mark, get set, go! | 各就各位，预备，跑！
+Let's go swimming. | 我们去游泳。
+Kick your legs! | 踢水！
+Let's put on some sunscreen. | 我们擦防晒。
+Drink some water. | 喝点水。
+Look, a butterfly! | 看，一只蝴蝶！
+Let's go on a nature walk. | 我们去大自然散步。
+
+## bedtime6 | moon | 睡前聊天 | Bedtime Talks | 睡前 睡觉 聊天 感恩 祷告 依偎 拖延 抱抱 晚安 关灯 再看一本
+Time to wind down. | 该放松准备睡觉了。 | wind down 是慢慢放松下来。
+Did you brush your teeth? | 你刷牙了吗？
+Go potty one last time. | 最后再上一次厕所。
+Two books, then lights out. | 两本书，然后关灯。
+Snuggle time! | 依偎时间！ | snuggle 是依偎、窝在一起。
+What was your favorite thing today? | 今天你最喜欢什么？
+What are you thankful for today? | 今天你感谢什么？
+Do you want to say a prayer? | 你要祷告吗？ | 很多美国家庭睡前会一起祷告（bedtime prayer）。
+No more stalling. | 别再拖时间啦。 | stall 是拖延，孩子找各种理由不睡时说。
+One more hug, and that's it. | 再一个抱抱，就这样了。
+I'll check on you in five minutes. | 五分钟后我来看看你。
+I love you no matter what. | 无论怎样我都爱你。
+Good night. I love you. | 晚安，我爱你。 | 孩子会回答 Love you too!
+
+## growth | medal | 鼓励成长 | Growth Mindset | 鼓励 成长 努力 练习 进步 勇敢 创意 相信 还不会 放弃 骄傲
+note: 说 You worked hard 比说 You're so smart 更能让孩子愿意挑战难的事。
+You didn't give up! | 你没有放弃！
+I can tell you practiced. | 看得出来你练习过。
+How did you figure that out? | 你是怎么想出来的？
+That was tricky, but you did it! | 那有点难，可是你做到了！ | tricky 是有点难、需要技巧的。
+You can't do it yet. | 你只是“还不会”而已。 | yet 的力量：把 I can't do it 变成 I can't do it yet。
+What could you try next time? | 下次你可以试试什么？
+Practice makes progress. | 练习让你进步。 | 美国学校把 Practice makes perfect 改成 progress，强调过程。
+That was brave. | 那很勇敢。
+I love how creative you are. | 我好喜欢你的创意。
+You should be proud of yourself! | 你应该为自己骄傲！
+I believe in you. | 我相信你。
+You were a great friend today. | 你今天是个很棒的朋友。
+
+## phrases | sparkle | 地道小短语 | Everyday Expressions | 口语 短语 常用 等一下 小心 开玩笑 天哪 再见 简单 拉勾 猜猜
+note: 美国家庭天天挂在嘴边的小短句，适合任何年龄。
+Hang on a second. | 等一下。
+No worries. | 没关系。
+Let's get going. | 我们出发吧。
+Hurry up, slowpoke! | 快点，慢吞吞的小家伙！ | slowpoke 是慢吞吞的人，玩笑的语气。
+Watch out! | 小心！
+Guess what? | 你猜怎么着？ | 孩子很爱用来开启话题，对方回答 What?
+Just kidding! | 开玩笑的！
+Oh my goodness! | 我的天哪！ | 美国家长对孩子多说 Oh my goodness 或 Oh my gosh，避免说 Oh my God。
+Silly goose! | 小傻瓜！ | 亲昵地说孩子调皮、搞笑。
+You're being silly. | 你在搞怪。
+Easy peasy! | 超简单！ | 小孩超爱说，完整版是 Easy peasy, lemon squeezy!
+See you later, alligator! | 待会见，鳄鱼！ | 押韵的道别语，孩子会回答 In a while, crocodile!
+Pinky promise? | 打勾勾？ | 也说 pinky swear。
+Yay! We did it! | 耶！我们做到了！

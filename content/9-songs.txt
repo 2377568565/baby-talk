@@ -1,0 +1,147 @@
+// 儿歌童谣：只收公有领域（没有版权）的传统儿歌。每一行歌词是一句，可以一句一句听。
+
+# songs | 全年龄 | 儿歌童谣 | Nursery Rhymes | 0 | 72
+intro: 美国孩子从小听到大的传统儿歌。一行一行学，唱给宝宝听；唱得不准也没关系，宝宝最爱听爸妈的声音。
+
+## twinkle | music | 一闪一闪小星星 | Twinkle, Twinkle, Little Star | 星星 小星星 一闪一闪 睡前 儿歌 摇篮曲
+note: 和 ABC 歌是同一个旋律。适合 0 岁起，哄睡时轻轻唱。
+Twinkle, twinkle, little star, | 一闪一闪小星星，
+How I wonder what you are! | 我多想知道你是什么！
+Up above the world so high, | 高高挂在世界上空，
+Like a diamond in the sky. | 像天上的一颗钻石。
+Twinkle, twinkle, little star, | 一闪一闪小星星，
+How I wonder what you are! | 我多想知道你是什么！
+
+## rockabye | music | 摇啊摇宝宝 | Rock-a-bye Baby | 摇篮曲 摇篮 睡觉 哄睡 儿歌 宝宝
+note: 美国最有名的摇篮曲之一。抱着宝宝左右摇着唱。
+Rock-a-bye, baby, on the treetop, | 摇啊摇，宝宝，在树梢上，
+When the wind blows, the cradle will rock. | 风一吹，摇篮摇呀摇。
+When the bough breaks, the cradle will fall, | 树枝断了，摇篮掉下来，
+And down will come baby, cradle and all. | 宝宝连摇篮一起掉下来。
+
+## hush | music | 嘘，小宝贝 | Hush, Little Baby | 摇篮曲 哄睡 嘘 安静 儿歌 鸟
+note: 美国南方的传统摇篮曲。don't sing 是民谣的口语写法（标准语法是 doesn't）。
+Hush, little baby, don't say a word, | 嘘，小宝贝，别出声，
+Mama's gonna buy you a mockingbird. | 妈妈要给你买一只会唱歌的小鸟。
+And if that mockingbird don't sing, | 要是那只小鸟不唱歌，
+Mama's gonna buy you a diamond ring. | 妈妈就给你买个钻石戒指。
+And if that diamond ring turns brass, | 要是钻石戒指变成了铜，
+Mama's gonna buy you a looking glass. | 妈妈就给你买面镜子。
+
+## piggy | music | 这只小猪 | This Little Piggy | 小猪 脚趾 游戏 儿歌 挠痒
+note: 从大脚趾开始，一句摸一个脚趾；最后一句手指从脚往上挠到肚子。
+This little piggy went to market. | 这只小猪去市场。
+This little piggy stayed home. | 这只小猪待在家。
+This little piggy had roast beef. | 这只小猪吃烤牛肉。
+This little piggy had none. | 这只小猪什么都没吃。
+And this little piggy cried, "Wee, wee, wee!" all the way home. | 这只小猪一路“喂喂喂”地哭着回家。
+
+## patacake | music | 拍蛋糕 | Pat-a-Cake | 拍手 拍蛋糕 游戏 儿歌 烤蛋糕
+note: 握着宝宝的小手拍。B 可以换成宝宝英文名字的第一个字母。
+Pat-a-cake, pat-a-cake, baker's man, | 拍蛋糕，拍蛋糕，面包师傅，
+Bake me a cake as fast as you can. | 快快帮我烤个蛋糕。
+Roll it and pat it and mark it with a B, | 揉一揉，拍一拍，画上一个 B，
+And put it in the oven for baby and me! | 放进烤箱给宝宝和我！
+
+## spider | music | 小蜘蛛 | The Itsy Bitsy Spider | 蜘蛛 下雨 太阳 手指游戏 儿歌
+note: 美国最经典的手指谣：两手拇指和食指交替往上爬。
+The itsy bitsy spider climbed up the water spout. | 小小的蜘蛛爬上了排水管。
+Down came the rain and washed the spider out. | 大雨落下来，把蜘蛛冲了出去。
+Out came the sun and dried up all the rain, | 太阳出来了，把雨都晒干，
+And the itsy bitsy spider climbed up the spout again. | 小小的蜘蛛又爬上了水管。
+
+## rowboat | music | 划小船 | Row, Row, Row Your Boat | 划船 小船 河 儿歌 摇
+note: 让宝宝坐在腿上，拉着他的手前后摇。
+Row, row, row your boat | 划，划，划小船，
+Gently down the stream. | 轻轻顺着小河流。
+Merrily, merrily, merrily, merrily, | 快快乐乐，快快乐乐，
+Life is but a dream. | 人生就像一场梦。
+
+## headtoes | music | 头肩膀膝盖脚趾 | Head, Shoulders, Knees and Toes | 身体 头 肩膀 膝盖 脚趾 眼睛 耳朵 嘴巴 鼻子 儿歌
+note: 边唱边摸对应的身体部位，越唱越快更好玩。
+Head, shoulders, knees and toes, knees and toes. | 头、肩膀、膝盖、脚趾，膝盖、脚趾。
+Head, shoulders, knees and toes, knees and toes. | 头、肩膀、膝盖、脚趾，膝盖、脚趾。
+And eyes and ears and mouth and nose. | 还有眼睛、耳朵、嘴巴和鼻子。
+Head, shoulders, knees and toes, knees and toes! | 头、肩膀、膝盖、脚趾，膝盖、脚趾！
+
+## happy | music | 如果你很快乐 | If You're Happy and You Know It | 快乐 开心 拍手 跺脚 儿歌
+note: 可以把 clap your hands 换成 stomp your feet（跺跺脚）、shout "Hooray!"（喊万岁）。
+If you're happy and you know it, clap your hands! | 如果你很快乐，就拍拍手！
+If you're happy and you know it, clap your hands! | 如果你很快乐，就拍拍手！
+If you're happy and you know it, then your face will surely show it. | 如果你很快乐，你的脸一定会表现出来。
+If you're happy and you know it, clap your hands! | 如果你很快乐，就拍拍手！
+
+## sheep | music | 咩咩黑羊 | Baa, Baa, Black Sheep | 羊 黑羊 羊毛 儿歌
+note: 和一闪一闪小星星是同一个旋律。
+Baa, baa, black sheep, have you any wool? | 咩咩黑羊，你有羊毛吗？
+Yes, sir, yes, sir, three bags full. | 有的先生，有的先生，满满三袋。
+One for the master, and one for the dame, | 一袋给主人，一袋给太太，
+And one for the little boy who lives down the lane. | 一袋给住在巷子那头的小男孩。
+
+## farm | music | 老麦克唐纳有个农场 | Old MacDonald Had a Farm | 农场 动物 牛 叫声 儿歌
+note: 每一段换一种动物和叫声：pig 是 oink、duck 是 quack、dog 是 woof。
+Old MacDonald had a farm, E-I-E-I-O. | 老麦克唐纳有个农场，咿呀咿呀哟。
+And on his farm he had a cow, E-I-E-I-O. | 他的农场里有头牛，咿呀咿呀哟。
+With a moo moo here, and a moo moo there, | 这里哞哞，那里哞哞，
+Here a moo, there a moo, everywhere a moo moo. | 这里哞，那里哞，到处都在哞哞。
+Old MacDonald had a farm, E-I-E-I-O. | 老麦克唐纳有个农场，咿呀咿呀哟。
+
+## monkeys | music | 五只小猴子 | Five Little Monkeys | 猴子 床 跳 数数 医生 儿歌
+note: 每唱一段少一只猴子：four、three、two、one。一边唱一边扳手指。
+Five little monkeys jumping on the bed, | 五只小猴子在床上跳，
+One fell off and bumped his head. | 一只掉下来撞到了头。
+Mama called the doctor, and the doctor said, | 妈妈打电话给医生，医生说：
+"No more monkeys jumping on the bed!" | “不准再有猴子在床上跳！”
+
+## lamb | music | 玛丽有只小羊羔 | Mary Had a Little Lamb | 小羊 羊羔 玛丽 儿歌
+Mary had a little lamb, little lamb, little lamb. | 玛丽有只小羊羔，小羊羔，小羊羔。
+Mary had a little lamb, its fleece was white as snow. | 玛丽有只小羊羔，它的毛像雪一样白。
+
+## clock | music | 滴答滴答钟 | Hickory, Dickory, Dock | 时钟 老鼠 钟 儿歌
+Hickory, dickory, dock. | 滴答，滴答，钟。
+The mouse ran up the clock. | 小老鼠爬上了钟。
+The clock struck one, | 钟敲了一下，
+The mouse ran down. | 小老鼠跑下来。
+Hickory, dickory, dock. | 滴答，滴答，钟。
+
+## humpty | music | 矮胖子 | Humpty Dumpty | 蛋 矮胖子 墙 摔 儿歌
+Humpty Dumpty sat on a wall. | 矮胖子坐在墙上。
+Humpty Dumpty had a great fall. | 矮胖子重重摔下来。
+All the king's horses and all the king's men | 国王所有的马和所有的士兵，
+Couldn't put Humpty together again. | 都没办法把矮胖子拼回去。
+
+## rain | music | 雨啊雨快走开 | Rain, Rain, Go Away | 下雨 雨 出去玩 儿歌
+note: 第三句可以换成宝宝的英文名字，比如 Little Johnny wants to play.
+Rain, rain, go away. | 雨啊雨，快走开。
+Come again another day. | 改天再来吧。
+Little baby wants to play. | 小宝宝想出去玩。
+Rain, rain, go away. | 雨啊雨，快走开。
+
+## openshut | music | 打开合起 | Open, Shut Them | 手 打开 合起 拍手 手指游戏 儿歌
+note: 手掌打开、握拳，跟着歌词做动作。
+Open, shut them. Open, shut them. | 打开，合起。打开，合起。
+Give a little clap, clap, clap. | 轻轻拍拍手，拍、拍、拍。
+Open, shut them. Open, shut them. | 打开，合起。打开，合起。
+Put them in your lap, lap, lap. | 放在腿上，放、放、放。
+
+## bingo | music | 宾果 | Bingo | 狗 宾果 字母 拍手 儿歌
+note: 每唱一次就把一个字母换成拍手。
+There was a farmer had a dog, and Bingo was his name-o. | 有个农夫养了只狗，它的名字叫宾果。
+B-I-N-G-O, B-I-N-G-O, B-I-N-G-O, | B-I-N-G-O，B-I-N-G-O，B-I-N-G-O，
+And Bingo was his name-o. | 它的名字叫宾果。
+
+## abc | music | ABC 字母歌 | The ABC Song | 字母 ABC 英文字母 儿歌
+note: 美式英语里 Z 读 zee，不读 zed。
+A, B, C, D, E, F, G, | A、B、C、D、E、F、G，
+H, I, J, K, L, M, N, O, P, | H、I、J、K、L、M、N、O、P，
+Q, R, S, T, U, V, | Q、R、S、T、U、V，
+W, X, Y, and Z. | W、X、Y 和 Z。
+Now I know my ABCs. | 现在我会 ABC 了。
+Next time, won't you sing with me? | 下次要不要跟我一起唱？
+
+## birthday | music | 生日快乐 | Happy Birthday | 生日 生日快乐 蛋糕 派对 儿歌
+note: 第三句换成过生日的人的名字：Happy birthday, dear Mommy.
+Happy birthday to you. | 祝你生日快乐。
+Happy birthday to you. | 祝你生日快乐。
+Happy birthday, dear baby. | 亲爱的宝宝，生日快乐。
+Happy birthday to you! | 祝你生日快乐！

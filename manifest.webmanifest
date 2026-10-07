@@ -1,0 +1,16 @@
+{
+  "name": "宝宝美语 Baby Talk",
+  "short_name": "宝宝美语",
+  "description": "给爸妈用的 0–6 岁地道美国口语，按年龄和生活场景整理，能搜索、能听发音。",
+  "lang": "zh-Hans",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6F3FA",
+  "theme_color": "#F6F3FA",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
